@@ -1,0 +1,51 @@
+{
+    "name": "polygonlab/public-apis-health",
+    "description": "Weekly health check of every link in the public-apis list of free APIs, in JSON and CSV, with history.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["api", "public-apis", "public-api", "free-api", "open-data", "awesome-list", "api-status", "uptime", "link-checker", "api-monitoring", "json", "csv"],
+    "homepage": "https://github.com/polygonlab-ai/public-apis-health",
+    "authors": [
+        {
+            "name": "PolygonLab",
+            "email": "contact@polygonlab.ai",
+            "homepage": "https://polygonlab.ai"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/polygonlab-ai/public-apis-health/issues",
+        "source": "https://github.com/polygonlab-ai/public-apis-health",
+        "security": "https://github.com/polygonlab-ai/public-apis-health/security/policy"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "justinrainbow/json-schema": "^6.4",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PolygonLab\\PublicApisHealth\\Tools\\": "tools/src/",
+            "PolygonLab\\PublicApisHealth\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress",
+        "style": "php-cs-fixer fix --dry-run --diff",
+        "style-fix": "php-cs-fixer fix",
+        "update-data": "php tools/actualiser.php"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

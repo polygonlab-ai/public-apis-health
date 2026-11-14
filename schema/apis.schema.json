@@ -1,0 +1,237 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/polygonlab-ai/public-apis-health/main/schema/apis.schema.json",
+    "title": "Entries of the public-apis list and the result of their weekly test",
+    "description": "The public-apis list and the result of the weekly test of each link, as published in data/apis.json.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "source",
+        "source_page",
+        "source_date",
+        "count",
+        "counts",
+        "host_count",
+        "apis"
+    ],
+    "properties": {
+        "source": {
+            "description": "Origin of the list.",
+            "type": "string",
+            "minLength": 1
+        },
+        "source_page": {
+            "description": "Page of the original repository.",
+            "type": "string",
+            "pattern": "^https://"
+        },
+        "source_date": {
+            "description": "Date of the run (YYYY-MM-DD, Paris time). Null as long as no run has been made.",
+            "type": [
+                "string",
+                "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "count": {
+            "description": "Total number of entries.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "counts": {
+            "description": "Number of entries per category and per test result.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "by_category",
+                "by_test_result"
+            ],
+            "properties": {
+                "by_category": {
+                    "description": "Number of entries of each category, in alphabetical order.",
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                "by_test_result": {
+                    "description": "Number of entries for each test result.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "responds",
+                        "access_denied",
+                        "not_found",
+                        "client_error",
+                        "server_error",
+                        "unreachable",
+                        "not_tested"
+                    ],
+                    "properties": {
+                        "responds": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "access_denied": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "not_found": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "client_error": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "server_error": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "unreachable": {
+                            "$ref": "#/definitions/counter"
+                        },
+                        "not_tested": {
+                            "$ref": "#/definitions/counter"
+                        }
+                    }
+                }
+            }
+        },
+        "host_count": {
+            "description": "Number of distinct hosts.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "apis": {
+            "description": "Entries, sorted by category, name, then link.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/api"
+            }
+        }
+    },
+    "definitions": {
+        "counter": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "api": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "url",
+                "host",
+                "description",
+                "category",
+                "auth",
+                "https",
+                "cors",
+                "test"
+            ],
+            "properties": {
+                "name": {
+                    "description": "Name given by the list.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "url": {
+                    "description": "Link given by the list, normalised. Unique: it is the key of the entry.",
+                    "type": "string",
+                    "pattern": "^https?://"
+                },
+                "host": {
+                    "description": "Host of the link, in lower case.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "description": {
+                    "description": "Description given by the list, 300 characters at most.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1,
+                    "maxLength": 300
+                },
+                "category": {
+                    "description": "Category of the list.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "auth": {
+                    "description": "Auth value declared by the list, as written there: No, apiKey, OAuth, X-Mashape-Key, User-Agent. Any other value is kept as it is. Not checked by the test.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "https": {
+                    "description": "HTTPS value declared by the list, as written there: Yes or No. Any other value is kept as it is. Not checked by the test.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "cors": {
+                    "description": "CORS value declared by the list, as written there: Yes, No or Unknown. Any other value is kept as it is. Not checked by the test.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "test": {
+                    "description": "Result of the weekly test of the link.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "result",
+                        "http_code",
+                        "tested_on",
+                        "observed_availability"
+                    ],
+                    "properties": {
+                        "result": {
+                            "description": "Class of the response: responds (2xx, 3xx), access_denied (401, 403), not_found (404, 410), client_error (other 4xx), server_error (5xx), unreachable (no response), not_tested (no call made).",
+                            "enum": [
+                                "responds",
+                                "access_denied",
+                                "not_found",
+                                "client_error",
+                                "server_error",
+                                "unreachable",
+                                "not_tested"
+                            ]
+                        },
+                        "http_code": {
+                            "description": "HTTP code of the last response received, or null when there was none.",
+                            "type": [
+                                "integer",
+                                "null"
+                            ],
+                            "minimum": 100,
+                            "maximum": 999
+                        },
+                        "tested_on": {
+                            "description": "Date of the run (YYYY-MM-DD), or null when the link was not tested.",
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                        },
+                        "observed_availability": {
+                            "description": "Share of the last recorded runs in which the link answered (responds or access_denied), from 0 to 1. Null as long as the link has not been tested in 3 runs.",
+                            "type": [
+                                "number",
+                                "null"
+                            ],
+                            "minimum": 0,
+                            "maximum": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

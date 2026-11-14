@@ -1,0 +1,27 @@
+{
+    "mode": "collecte",
+    "mots_interdits": true,
+    "fichiers_generes": ["LIST.md"],
+    "source": "public-apis/public-apis",
+    "source_page": "https://github.com/public-apis/public-apis",
+    "list_url": "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+    "attempts": 3,
+    "timeout_s": 30,
+    "max_size": 5000000,
+    "min_categories": 30,
+    "max_drop_pct": 20,
+    "test": {
+        "timeout_s": 10,
+        "max_redirects": 3,
+        "max_body_size": 65536,
+        "host_interval_s": 1,
+        "retry_pause_s": 5,
+        "concurrency": 8,
+        "max_consecutive_failures": 3,
+        "max_duration_s": 3000,
+        "max_unreachable_pct": 30,
+        "max_changed_pct": 25,
+        "runs": 8,
+        "min_runs": 3
+    }
+}

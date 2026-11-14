@@ -1,0 +1,114 @@
+{
+    "resolutions": {
+        "hub.openapihub.com": [
+            "fd00::10"
+        ]
+    },
+    "responses": {
+        "https://alexwohlbruck.github.io/cat-facts/": {
+            "code": 404,
+            "redirect": null,
+            "error": null
+        },
+        "https://api.nasa.gov/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://breedhealthscore.com/developers/": {
+            "code": 301,
+            "redirect": "https://www.breedhealthscore.com/developers/",
+            "error": null
+        },
+        "https://catfact.ninja/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://ddownload.com/api": {
+            "code": 429,
+            "redirect": null,
+            "error": null
+        },
+        "https://deed.page/docs": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://dev.blockscout.com/": {
+            "code": 500,
+            "redirect": null,
+            "error": null
+        },
+        "https://developer.box.com/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://discord.com/developers/docs/intro": {
+            "code": 401,
+            "redirect": null,
+            "error": null
+        },
+        "https://dog.ceo/dog-api/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://dukengn.github.io/Dog-facts-API/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://github.com/4chan/4chan-API": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://graphql.bitquery.io/ide": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://hub.openapihub.com/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://isitdownstatus.com/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://kinduff.github.io/dog-api/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://segmara.com/syndicate": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://theaxolotlapi.netlify.app/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://tradoshi.com/en/developers": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        },
+        "https://wiki.anidb.net/HTTP_API_Definition": {
+            "code": 403,
+            "redirect": null,
+            "error": null
+        },
+        "https://www.breedhealthscore.com/developers/": {
+            "code": 200,
+            "redirect": null,
+            "error": null
+        }
+    }
+}
