@@ -32,6 +32,7 @@ open-meteo.com,2,Environment | Weather,responds,2
 www.cloudmersive.com,2,Machine Learning | Text Analysis,responds,2
 www.foaas.com,2,Personality | Social,responds,2
 www.ip2location.com,2,Geocoding,responds,2
+www.quotelinks.com,2,Currency Exchange | Finance,responds,2
 yandex.com,2,Geocoding | Weather,responds,2
 0x0.st,1,Cloud Storage & File Sharing,server_error,0
 17nas.com,1,Geocoding,responds,1
@@ -41,6 +42,7 @@ yandex.com,2,Geocoding | Weather,responds,2
 3dtexel.com,1,Art & Design,responds,1
 5dollarfootballapi.com,1,Sports & Fitness,responds,1
 a-to-mind.com,1,Development,responds,1
+acenes-of-sparta.pages.dev,1,Books,responds,1
 acesapi.com,1,Sports & Fitness,responds,1
 acnhapi.com,1,Games & Comics,unreachable,0
 actinia.mundialis.de,1,Geocoding,responds,1
@@ -63,9 +65,11 @@ aidevboard.com,1,Jobs,responds,1
 aiformapi.com,1,Documents & Productivity,responds,1
 aiforthai.in.th,1,Machine Learning,responds,1
 aimastering.com,1,Music,responds,1
+airatecard.com,1,Machine Learning,responds,1
 airport-web.appspot.com,1,Transportation,responds,1
 airportmiles.com,1,Transportation,responds,1
 airtable.com,1,Documents & Productivity,responds,1
+aisense.no,1,Development,responds,1
 aistrail.com,1,Transportation,responds,1
 aistupidlevel.info,1,Machine Learning,responds,1
 aitrainer.work,1,Jobs,responds,1
@@ -130,10 +134,10 @@ api.ganjoor.net,1,Books,responds,1
 api.generadordni.es,1,Test Data,responds,1
 api.gitguardian.com,1,Security,not_found,0
 api.gouv.fr,1,Geocoding,responds,1
+api.greenscreenmemes.app,1,Entertainment,responds,1
 api.hackerone.com,1,Security,responds,1
 api.halalterminal.com,1,Finance,responds,1
 api.hypixel.net,1,Games & Comics,responds,1
-api.ibanforge.com,1,Finance,responds,1
 api.imgbb.com,1,Cloud Storage & File Sharing,responds,1
 api.inaturalist.org,1,Science & Math,responds,1
 api.ipma.pt,1,Weather,responds,1
@@ -215,6 +219,7 @@ apizone.io,1,Development,responds,1
 apogeoapi.com,1,Geocoding,responds,1
 app.metrolisboa.pt,1,Transportation,responds,1
 app.swaggerhub.com,1,Music,not_found,0
+app.theriver.markets,1,Cryptocurrency,responds,1
 app.traitify.com,1,Personality,responds,1
 app.wealthnow.io,1,Finance,responds,1
 app.zornade.com,1,Geocoding,responds,1
@@ -230,6 +235,7 @@ astro-agent.dev,1,Personality,responds,1
 atlasfetch.xyz,1,Geocoding,responds,1
 atomic-mail.github.io,1,Email,responds,1
 audexum.com,1,Machine Learning,responds,1
+aurastream.unbiased-alpha.com,1,Finance,responds,1
 auregistre.fr,1,Open Data,responds,1
 auth0.com,1,Authentication & Authorization,responds,1
 autobodyshopnear.com,1,Vehicle,access_denied,0
@@ -247,16 +253,18 @@ banks.complianceassessmenttool.com,1,Security,responds,1
 battuta.medunes.net,1,Geocoding,responds,1
 bayan.alwa7i.com,1,Books,responds,1
 bazaar.abuse.ch,1,Anti-Malware,responds,1
-bdapis.com,1,Geocoding,responds,1
+bdapis.com,1,Geocoding,client_error,0
 beeceptor.com,1,Development,responds,1
 best-tempmail.com,1,Email,responds,1
 bestbuyapis.github.io,1,Shopping,responds,1
 beta.developer.spotify.com,1,Music,responds,1
 betbetter.world,1,Sports & Fitness,responds,1
 bettip.co.za,1,Development,responds,1
+bewary.app,1,Anti-Malware,responds,1
 bible-api.com,1,Books,responds,1
 bigdataexplained.com,1,Open Data,responds,1
 bikereliability.co.uk,1,Vehicle,responds,1
+billionairetracker.us,1,Finance,responds,1
 binaryjazz.us,1,Music,responds,1
 binlist.net,1,Finance,responds,1
 birdieapi.com,1,Sports & Fitness,responds,1
@@ -267,7 +275,7 @@ bitcoinyield.co,1,Cryptocurrency,not_found,0
 bitculator.com,1,Cryptocurrency,access_denied,0
 bittrex.github.io,1,Cryptocurrency,not_found,0
 bitwarden.com,1,Security,responds,1
-bkkfutar.docs.apiary.io,1,Transportation,responds,1
+bkkfutar.docs.apiary.io,1,Transportation,unreachable,0
 bklink.uk,1,Development,responds,1
 blague.xyz,1,Development,responds,1
 blazephoenix.xyz,1,Cryptocurrency,responds,1
@@ -275,7 +283,7 @@ blitapp.com,1,Development,responds,1
 block.io,1,Cryptocurrency,responds,1
 blockfrost.io,1,Cryptocurrency,responds,1
 blocklottos.com,1,Cryptocurrency,responds,1
-blynkapi.docs.apiary.io,1,Development,responds,1
+blynkapi.docs.apiary.io,1,Development,unreachable,0
 bnb.data.bl.uk,1,Books,unreachable,0
 boardgamegeek.com,1,Games & Comics,access_denied,0
 bobs-burgers-api-ui.herokuapp.com,1,Video,server_error,0
@@ -314,6 +322,7 @@ caliberapi.com,1,Open Data,responds,1
 callofdutymobile.vercel.app,1,Games & Comics,responds,1
 callook.info,1,Open Data,responds,1
 calorieninjas.com,1,Food & Drink,responds,1
+canadaservicemap.ca,1,Government,responds,1
 canienter.com,1,Transportation,responds,1
 capev2.readthedocs.io,1,Anti-Malware,responds,1
 carbon-intensity.github.io,1,Environment,responds,1
@@ -326,6 +335,7 @@ carvector.io,1,Vehicle,responds,1
 catboys.com,1,Anime,responds,1
 catchtheshow.herokuapp.com,1,Video,not_found,0
 catfact.ninja,1,Animals,responds,1
+cazimi.live,1,Science & Math,responds,1
 cbu.uz,1,Currency Exchange,responds,1
 ccdb.hemiola.com,1,Dictionaries,responds,1
 ce.judge0.com,1,Programming,responds,1
@@ -333,7 +343,7 @@ cep.la,1,Geocoding,unreachable,0
 cf-workers-demo.pianfox345.workers.dev,1,Development,responds,1
 chain.link,1,Blockchain,responds,1
 chandan-02.github.io,1,Anime,responds,1
-changelogs.md,1,Development,responds,1
+changelogs.md,1,Development,unreachable,0
 chargealong.io,1,Transportation,responds,1
 charityapi.orghunter.com,1,Business,responds,1
 chartbytes.meridian-digital.pro,1,Development,responds,1
@@ -418,11 +428,13 @@ craftmypdf.com,1,Documents & Productivity,responds,1
 crates.io,1,Development,not_found,0
 crawlbrulee.com,1,Development,responds,1
 creativecommons.tankerkoenig.de,1,Transportation,responds,1
+crimedata.dev,1,Government,responds,1
 crossuniverse.psychpsyo.com,1,Games & Comics,access_denied,0
 cruise-itinerary.com,1,Transportation,responds,1
 cruisefeed.io,1,Transportation,responds,1
 crxcavator.io,1,Security,unreachable,0
 cryptocurrency.cv,1,Cryptocurrency,responds,1
+cryptodataapi.com,1,Cryptocurrency,responds,1
 cryptokeyhole.com,1,Cryptocurrency,responds,1
 csr.plus,1,Security,responds,1
 ctext.org,1,Dictionaries,responds,1
@@ -440,11 +452,11 @@ dabloons.net,1,Jobs,responds,1
 dados.gov.pt,1,Government,responds,1
 dadosabertos.bcb.gov.br,1,Government,responds,1
 dadosabertos.camara.leg.br,1,Government,responds,1
-dagpi.xyz,1,Photography,unreachable,0
+dagpi.xyz,1,Photography,responds,1
 dailyfoodrecalls.com,1,Food & Drink,responds,1
 dailymed.nlm.nih.gov,1,Health,responds,1
 danbooru.donmai.us,1,Anime,responds,1
-dane.gov.pl,1,Government,unreachable,0
+dane.gov.pl,1,Government,responds,1
 dashboard.nbshare.io,1,Finance,access_denied,0
 data.ai-kit.net,1,Vehicle,responds,1
 data.cms.gov,1,Health,responds,1
@@ -461,13 +473,13 @@ data.gov.gr,1,Government,responds,1
 data.gov.ie,1,Government,responds,1
 data.gov.in,1,Government,unreachable,0
 data.gov.lt,1,Government,responds,1
-data.gov.ro,1,Government,responds,1
+data.gov.ro,1,Government,server_error,0
 data.gov.sa,1,Government,unreachable,0
 data.gov.sg,1,Government,responds,1
 data.gov.sk,1,Government,responds,1
 data.gov.tw,1,Government,responds,1
 data.gov.uk,1,Government,responds,1
-data.humdata.org,1,Health,client_error,0
+data.humdata.org,1,Health,responds,1
 data.ibb.gov.tr,1,Government,unreachable,0
 data.nantesmetropole.fr,1,Government,responds,1
 data.nasdaq.com,1,Open Data,responds,1
@@ -512,6 +524,7 @@ dev-portal.rappi.com,1,Shopping,responds,1
 dev.bitly.com,1,URL Shorteners,responds,1
 dev.blablacar.com,1,Transportation,not_found,0
 dev.blockscout.com,1,Blockchain,responds,1
+dev.cosmospay.lat,1,Cryptocurrency,access_denied,0
 dev.fingerprintjs.com,1,Security,responds,1
 dev.fitbit.com,1,Sports & Fitness,responds,1
 dev.npr.org,1,News,unreachable,0
@@ -544,7 +557,7 @@ developer.grab.com,1,Transportation,responds,1
 developer.haloapi.com,1,Games & Comics,responds,1
 developer.here.com,1,Geocoding,responds,1
 developer.iconfinder.com,1,Art & Design,access_denied,0
-developer.ilovepdf.com,1,Documents & Productivity,responds,1
+developer.ilovepdf.com,1,Documents & Productivity,server_error,0
 developer.infermedica.com,1,Health,responds,1
 developer.jamendo.com,1,Music,responds,1
 developer.jcdecaux.com,1,Sports & Fitness,responds,1
@@ -599,7 +612,7 @@ developers.cloudflare.com,1,Development,responds,1
 developers.coinbase.com,1,Cryptocurrency,access_denied,0
 developers.coinranking.com,1,Cryptocurrency,responds,1
 developers.deezer.com,1,Music,responds,1
-developers.enigma.com,1,Open Data,responds,1
+developers.enigma.com,1,Open Data,not_found,0
 developers.epo.org,1,Patent,access_denied,0
 developers.facebook.com,1,Social,responds,1
 developers.forem.com,1,Personality,responds,1
@@ -632,7 +645,7 @@ developers.upwork.com,1,Jobs,access_denied,0
 developers.wargaming.net,1,Games & Comics,responds,1
 devitjobs.uk,1,Jobs,responds,1
 devlifecheck.com,1,Open Data,responds,1
-diagrams.so,1,Development,responds,1
+diagrams.so,1,Development,access_denied,0
 dictionaryapi.com,1,Dictionaries,responds,1
 dictionaryapi.dev,1,Dictionaries,access_denied,0
 digimon-api.vercel.app,1,Games & Comics,responds,1
@@ -712,6 +725,7 @@ docs.impala.travel,1,Transportation,unreachable,0
 docs.irail.be,1,Transportation,responds,1
 docs.ironflow.sh,1,Cryptocurrency,responds,1
 docs.jobspipe.dev,1,Jobs,responds,1
+docs.keirolabs.cloud,1,Development,responds,1
 docs.klarna.com,1,Finance,responds,1
 docs.kraken.com,1,Cryptocurrency,responds,1
 docs.ksoft.si,1,Music,unreachable,0
@@ -720,13 +734,14 @@ docs.kutt.it,1,URL Shorteners,unreachable,0
 docs.lexigram.io,1,Health,responds,1
 docs.lightdrift.ai,1,Photography,responds,1
 docs.mail.gw,1,Email,responds,1
-docs.mail.tm,1,Email,responds,1
+docs.mail.tm,1,Email,access_denied,0
 docs.mhw-db.com,1,Games & Comics,responds,1
 docs.mintlify.com,1,Programming,responds,1
 docs.mistral.ai,1,Machine Learning,responds,1
 docs.mod.io,1,Games & Comics,responds,1
 docs.moov.io,1,Finance,responds,1
 docs.mygene.info,1,Science & Math,responds,1
+docs.nansen.ai,1,Cryptocurrency,responds,1
 docs.nekos.best,1,Anime,responds,1
 docs.netlify.com,1,Development,responds,1
 docs.nitrosend.com,1,Email,responds,1
@@ -761,6 +776,7 @@ docs.speakai.co,1,Machine Learning,responds,1
 docs.stophy.dev,1,Development,responds,1
 docs.storj.io,1,Cloud Storage & File Sharing,responds,1
 docs.sunor.cc,1,Music,responds,1
+docs.suprsend.com,1,Development,responds,1
 docs.talordata.com,1,Development,responds,1
 docs.talroo.com,1,Jobs,responds,1
 docs.tebex.io,1,Games & Comics,responds,1
@@ -787,7 +803,7 @@ domainsdb.info,1,Business,responds,1
 dotasense.com,1,Games & Comics,responds,1
 dotsweep.com,1,Development,responds,1
 doughmatrix.com,1,Food & Drink,responds,1
-downforjustmeoreveryone.com,1,Development,responds,1
+downforjustmeoreveryone.com,1,Development,not_tested,0
 drillr.ai,1,Finance,responds,1
 dropmail.me,1,Email,responds,1
 duceusapi.com,1,Finance,responds,1
@@ -811,6 +827,7 @@ election.org,1,Government,responds,1
 email-spam-tester.com,1,Email,responds,1
 email.lifestep.io,1,Email,responds,1
 emel.city-platform.com,1,Transportation,unreachable,0
+emissaoja.com.br,1,Documents & Productivity,responds,1
 en.fofa.info,1,Security,responds,1
 en.ilmatieteenlaitos.fi,1,Weather,responds,1
 en.mailsenpai.com,1,Email,responds,1
@@ -827,7 +844,7 @@ etherscan.io,1,Blockchain,access_denied,0
 europepmc.org,1,Science & Math,access_denied,0
 eurovalidate.com,1,Business,responds,1
 ev-charging-stations-api.vercel.app,1,Transportation,responds,1
-eva.pingutil.com,1,Email,unreachable,0
+eva.pingutil.com,1,Email,responds,1
 evilinsult.com,1,Open Source Projects,access_denied,0
 exactcup.github.io,1,Food & Drink,responds,1
 exchangerate.dev,1,Currency Exchange,responds,1
@@ -836,7 +853,7 @@ exchangeratesapi.io,1,Currency Exchange,responds,1
 excuser.herokuapp.com,1,Entertainment,not_found,0
 explore.data.parliament.uk,1,Government,responds,1
 extendsclass.com,1,Development,responds,1
-faceapi.hirak.site,1,Machine Learning,access_denied,0
+faceapi.hirak.site,1,Machine Learning,responds,1
 fakejson.com,1,Test Data,responds,1
 fakerapi.it,1,Test Data,responds,1
 fakestoreapi.com,1,Test Data,access_denied,0
@@ -850,6 +867,7 @@ fdc.nal.usda.gov,1,Health,responds,1
 fertilityclinics.fyi,1,Health,responds,1
 ffxivcollect.com,1,Games & Comics,responds,1
 fiberup.app,1,Food & Drink,responds,1
+fillerlists.com,1,Anime,responds,1
 filterlists.com,1,Security,access_denied,0
 finage.co.uk,1,Finance,responds,1
 finalspaceapi.com,1,Video,responds,1
@@ -889,8 +907,10 @@ futuresclock.com,1,Finance,responds,1
 fxnewsbias.com,1,Finance,responds,1
 fxpeek.com,1,Currency Exchange,responds,1
 fynepdf.com,1,Documents & Productivity,responds,1
+galaxymovies.app,1,Video,access_denied,0
 gameofthronesquotes.xyz,1,Video,responds,1
 gankdat.com,1,Government,responds,1
+gasrent.click,1,Cryptocurrency,responds,1
 gcrawlai.com,1,Development,responds,1
 gdbrowser.com,1,Games & Comics,responds,1
 geiserx.github.io,1,Transportation,responds,1
@@ -911,6 +931,7 @@ getcloseknit.com,1,Open Data,responds,1
 getdaleelak.com,1,Currency Exchange,responds,1
 getemboss.ai,1,Documents & Productivity,responds,1
 getpantry.cloud,1,Cloud Storage & File Sharing,responds,1
+getparceldata.com,1,Geocoding,responds,1
 getpocket.com,1,Documents & Productivity,server_error,0
 ghibliapi.vercel.app,1,Anime,responds,1
 ghost.org,1,Development,responds,1
@@ -964,7 +985,7 @@ himaxym.com,1,Transportation,responds,1
 hipsum.co,1,Development,responds,1
 hirelayer.co,1,Jobs,responds,1
 holidayapi.com,1,Calendar,responds,1
-holidayexplore.com,1,Calendar,responds,1
+holidayexplore.com,1,Calendar,access_denied,0
 hormuz.data-tracking.net,1,Transportation,responds,1
 host-t.com,1,Development,responds,1
 host.io,1,Development,responds,1
@@ -978,7 +999,7 @@ hri.fi,1,Government,responds,1
 html2pdf.app,1,Documents & Productivity,responds,1
 http.cat,1,Animals,responds,1
 http.dog,1,Animals,responds,1
-http2.pro,1,Development,unreachable,0
+http2.pro,1,Development,responds,1
 httpbin.org,1,Development,responds,1
 hub.openapihub.com,1,Development,responds,1
 huggingface.co,1,Machine Learning,responds,1
@@ -989,6 +1010,7 @@ hyperserve.io,1,Video,responds,1
 hytale-api.com,1,Games & Comics,unreachable,0
 i6eal.de,1,Open Data,responds,1
 iban-analyzer.com,1,Finance,responds,1
+ibanforge.com,1,Finance,responds,1
 icanhazdadjoke.com,1,Personality,responds,1
 icanhazepoch.com,1,Development,responds,1
 icon.horse,1,Art & Design,responds,1
@@ -1031,7 +1053,7 @@ ipgeolocation.io,1,Geocoding,responds,1
 ipgeolocationapi.io,1,Geocoding,unreachable,0
 ipguardian.net,1,Security,responds,1
 ipkit.dev,1,Geocoding,responds,1
-iplocation.hirak.site,1,Geocoding,responds,1
+iplocation.hirak.site,1,Geocoding,access_denied,0
 iplogs.com,1,Security,responds,1
 ipscanner.io,1,Security,responds,1
 ipsnapshot.com,1,Geocoding,responds,1
@@ -1040,7 +1062,7 @@ ipwhois.io,1,Geocoding,responds,1
 ipwhois.net,1,Anti-Malware,responds,1
 irisnet.de,1,Machine Learning,responds,1
 ironfang.com,1,Development,responds,1
-isdayoff.ru,1,Calendar,unreachable,0
+isdayoff.ru,1,Calendar,responds,1
 isevenapi.xyz,1,Science & Math,responds,1
 isgenai.com,1,Photography,responds,1
 isitdownstatus.com,1,Development,client_error,0
@@ -1065,6 +1087,8 @@ jsonbin.io,1,Development,responds,1
 jsonfabrica.com,1,Test Data,access_denied,0
 jstash.app,1,Development,responds,1
 justmeme.wtf,1,Entertainment,responds,1
+kaijuconverter.com,1,Documents & Productivity,responds,1
+kalenderblick.de,1,Calendar,responds,1
 kanari.io,1,Environment,responds,1
 kanye.rest,1,Personality,responds,1
 kavel.readthedocs.io,1,Photography,responds,1
@@ -1076,10 +1100,10 @@ kickoffapi.com,1,Sports & Fitness,responds,1
 kimiquotes.herokuapp.com,1,Personality,not_found,0
 kinduff.github.io,1,Animals,responds,1
 kinopipe.com,1,Video,responds,1
-kitsu.docs.apiary.io,1,Anime,responds,1
+kitsu.docs.apiary.io,1,Anime,unreachable,0
 kontests.net,1,Programming,responds,1
 kontragentpro.ru,1,Business,responds,1
-krakenkeys.com,1,Games & Comics,unreachable,0
+krakenkeys.com,1,Games & Comics,responds,1
 kroki.io,1,Development,responds,1
 kvartiry-phuket.com,1,Open Data,responds,1
 l2calendar.com,1,Games & Comics,responds,1
@@ -1098,8 +1122,8 @@ lhncbc.nlm.nih.gov,1,Health,responds,1
 lianex.ai,1,Shopping,responds,1
 libraries.io,1,Open Source Projects,responds,1
 libretranslate.com,1,Text Analysis,responds,1
-lichess.org,1,Games & Comics,responds,1
-liquilens-undertow.com,1,Finance,access_denied,0
+lichess.org,1,Games & Comics,access_denied,0
+liquilens-undertow.com,1,Finance,responds,1
 liquilens.in,1,Finance,responds,1
 listenbrainz.readthedocs.io,1,Music,responds,1
 litport.net,1,Development,responds,1
@@ -1119,11 +1143,13 @@ lordicon.com,1,Art & Design,responds,1
 loremfile.dev,1,Test Data,responds,1
 loripsum.net,1,Test Data,unreachable,0
 lottizen.com,1,Open Data,responds,1
+loupe.legal,1,Government,responds,1
 lua-decompiler.ferib.dev,1,Development,unreachable,0
+lucasfox.dev,1,Sports & Fitness,responds,1
 lucyd.trade,1,Cryptocurrency,responds,1
 lumify.ai,1,Sports & Fitness,responds,1
 lurkapi.com,1,Social,responds,1
-lyricsovh.docs.apiary.io,1,Music,responds,1
+lyricsovh.docs.apiary.io,1,Music,unreachable,0
 macaddress.io,1,Development,unreachable,0
 macadress.com,1,Development,responds,1
 machinetutors.com,1,Machine Learning,responds,1
@@ -1135,6 +1161,7 @@ mailboxlayer.com,1,Email,responds,1
 mailchimp.com,1,Business,responds,1
 mailfornet.com,1,Email,responds,1
 mailsac.com,1,Test Data,responds,1
+mailtester.ninja,1,Email,responds,1
 mailtrap.io,1,Email,responds,1
 major.io,1,Development,responds,1
 makeup-api.herokuapp.com,1,Health,responds,1
@@ -1147,7 +1174,7 @@ map.longdo.com,1,Geocoding,responds,1
 mapaoswiatowa.pl,1,Open Data,responds,1
 marginpad.io,1,Cryptocurrency,responds,1
 mario-kart-tour-api.herokuapp.com,1,Games & Comics,not_found,0
-markerapi.com,1,Business,responds,1
+markerapi.com,1,Business,server_error,0
 marketstack.com,1,Finance,responds,1
 maskbreak.com,1,Security,responds,1
 matchwire.win,1,Finance,responds,1
@@ -1157,6 +1184,7 @@ mcp.10ml.com,1,Open Data,responds,1
 mediacraft-x402-api.onrender.com,1,Machine Learning,responds,1
 mediastack.com,1,News,responds,1
 medlineplus.gov,1,Health,responds,1
+meducateapi.com,1,Health,responds,1
 meetkatalis.com,1,Business,responds,1
 meirra.com,1,Business,responds,1
 meltema.com,1,Weather,unreachable,0
@@ -1173,7 +1201,7 @@ miconvert.com,1,Documents & Productivity,responds,1
 microenv.com,1,Development,responds,1
 microlink.io,1,Open Data,responds,1
 microsaas-agent-api.vercel.app,1,Development,access_denied,0
-mineseedfinder.vercel.app,1,Games & Comics,responds,1
+mineseedfinder.vercel.app,1,Games & Comics,client_error,0
 modelpartfinder.com,1,Open Data,responds,1
 mojoauth.com,1,Authentication & Authorization,responds,1
 molicheck.com,1,Science & Math,responds,1
@@ -1221,7 +1249,7 @@ newsdata.io,1,News,responds,1
 newsflash.sh,1,News,responds,1
 newsmesh.co,1,News,responds,1
 newton.vercel.app,1,Science & Math,responds,1
-nexchange2.docs.apiary.io,1,Cryptocurrency,responds,1
+nexchange2.docs.apiary.io,1,Cryptocurrency,unreachable,0
 nexwall.kodnextech.com,1,Photography,responds,1
 nlp.insightera.co.th,1,Text Analysis,responds,1
 nlpcloud.io,1,Machine Learning,access_denied,0
@@ -1249,6 +1277,7 @@ objectcut.com,1,Photography,responds,1
 oceanfacts.herokuapp.com,1,Science & Math,not_found,0
 ocr.hirak.site,1,Text Analysis,access_denied,0
 ocr.space,1,Documents & Productivity,responds,1
+octocrawl.dev,1,Development,responds,1
 octopart.com,1,Shopping,responds,1
 oddsbench.xyz,1,Sports & Fitness,responds,1
 oddsradarwire.com,1,Sports & Fitness,responds,1
@@ -1288,6 +1317,7 @@ openf1.org,1,Sports & Fitness,responds,1
 openfootapi.com,1,Sports & Fitness,responds,1
 opengeocoding.com,1,Geocoding,responds,1
 opengraphr.com,1,Development,responds,1
+openguitarchords.com,1,Music,responds,1
 openlibrary.org,1,Books,responds,1
 openmercantil.es,1,Government,responds,1
 openqr.uk,1,Development,responds,1
@@ -1347,7 +1377,7 @@ phishstats.info,1,Security,responds,1
 php-noise.com,1,Art & Design,responds,1
 pic2svg.com,1,Art & Design,responds,1
 pickshade.com,1,Art & Design,responds,1
-picsum.photos,1,Photography,unreachable,0
+picsum.photos,1,Photography,responds,1
 pictograph.io,1,Machine Learning,responds,1
 pinballmap.com,1,Geocoding,responds,1
 pinkwallet.com,1,Finance,responds,1
@@ -1364,6 +1394,7 @@ placebear.com,1,Animals,responds,1
 placekeanu.com,1,Photography,responds,1
 platform-docs.opentargets.org,1,Health,responds,1
 platform.ifttt.com,1,Development,responds,1
+platform.kite.sa,1,Open Data,responds,1
 platform.seatgeek.com,1,Events,responds,1
 playerdb.co,1,Games & Comics,responds,1
 playerelo.football,1,Sports & Fitness,responds,1
@@ -1399,7 +1430,7 @@ probativegrowth.com,1,Government,responds,1
 problemsbyvin.com,1,Vehicle,responds,1
 products.wolframalpha.com,1,Machine Learning,responds,1
 prop-line.com,1,Sports & Fitness,responds,1
-propraven.com,1,Open Data,server_error,0
+propraven.com,1,Open Data,client_error,0
 proxifly.dev,1,Development,responds,1
 proxycrawl.com,1,Development,responds,1
 proxyforge.dev,1,Development,responds,1
@@ -1410,10 +1441,13 @@ publicdatahub.org,1,Open Data,responds,1
 pulsedive.com,1,Security,responds,1
 pumpfundata.com,1,Cryptocurrency,responds,1
 punkapi.com,1,Food & Drink,unreachable,0
+pushbuild.com,1,Government,responds,1
 pusher.com,1,Development,responds,1
 qr-api.62-238-102-93.sslip.io,1,Development,responds,1
 qr.lifestep.io,1,Development,responds,1
 qrcodecrafter.com,1,Development,responds,1
+qrdx.dev,1,Development,responds,1
+qrkept.com,1,Development,responds,1
 qrx.codes,1,Development,responds,1
 quarantine.country,1,Health,unreachable,0
 quelllm.fr,1,Machine Learning,responds,1
@@ -1441,10 +1475,11 @@ randomlexicon.com,1,Dictionaries,responds,1
 randommer.io,1,Test Data,responds,1
 randomuser.me,1,Test Data,responds,1
 rate-api.com,1,Currency Exchange,responds,1
-rates.hirak.site,1,Cryptocurrency,responds,1
+rates.hirak.site,1,Cryptocurrency,access_denied,0
 rawg.io,1,Games & Comics,responds,1
 razorpay.com,1,Finance,responds,1
 rblxdb.com,1,Games & Comics,responds,1
+readark.app,1,Books,responds,1
 realuptime.io,1,Development,responds,1
 rebatehub.ca,1,Open Data,responds,1
 recht.nulegal.eu,1,Government,responds,1
@@ -1476,6 +1511,7 @@ ridb.recreation.gov,1,Open Data,responds,1
 righttodisconnect.jdries.nl,1,Government,responds,1
 road511.com,1,Transportation,responds,1
 robohash.org,1,Test Data,responds,1
+router.dahono.com,1,Development,responds,1
 rss-to-json-serverless-api.vercel.app,1,Development,client_error,0
 rundossier.com,1,Business,responds,1
 runescape.wiki,1,Games & Comics,responds,1
@@ -1483,6 +1519,7 @@ runyankole-bible-api.vercel.app,1,Books,responds,1
 rustybeer.herokuapp.com,1,Food & Drink,not_found,0
 safereel.ai,1,Machine Learning,responds,1
 sahifa.dev,1,Documents & Productivity,responds,1
+salahtable.com,1,Calendar,responds,1
 salestaxcalculatorapi.com,1,Finance,responds,1
 salvagealert.com,1,Vehicle,access_denied,0
 sampuli.site,1,Test Data,server_error,0
@@ -1492,6 +1529,7 @@ sawolabs.com,1,Authentication & Authorization,responds,1
 sayitvid.com,1,Dictionaries,responds,1
 scanmalware.com,1,Anti-Malware,responds,1
 scholarships.grudged.io,1,Open Data,responds,1
+schoolapi.org,1,Government,responds,1
 scoopkit.dev,1,News,responds,1
 scout.govbidportals.com,1,Government,responds,1
 scrapeninja.net,1,Development,responds,1
@@ -1520,7 +1558,7 @@ sendraven.ai,1,Email,responds,1
 serpkite.com,1,Development,responds,1
 serply.io,1,Development,responds,1
 serpstack.com,1,Development,responds,1
-servicodados.ibge.gov.br,1,Geocoding,unreachable,0
+servicodados.ibge.gov.br,1,Geocoding,access_denied,0
 share.osf.io,1,Science & Math,responds,1
 shareglint.com,1,Development,responds,1
 sheetsu.com,1,Development,responds,1
@@ -1535,7 +1573,8 @@ shoutcloud.io,1,Development,responds,1
 shrtco.de,1,URL Shorteners,responds,1
 shrtlnk.dev,1,URL Shorteners,responds,1
 signaliz.docs.buildwithfern.com,1,Business,not_found,0
-simkl.docs.apiary.io,1,Video,responds,1
+signops.dev,1,Authentication & Authorization,responds,1
+simkl.docs.apiary.io,1,Video,server_error,0
 site.financialmodelingprep.com,1,Finance,access_denied,0
 siteintel.duckdns.org,1,Development,responds,1
 skybiometry.com,1,Machine Learning,responds,1
@@ -1563,7 +1602,7 @@ spaceflightnewsapi.net,1,News,responds,1
 spacetraders.io,1,Games & Comics,responds,1
 sparepilot.com,1,Shopping,responds,1
 spoonacular.com,1,Food & Drink,responds,1
-sportscore.com,1,Sports & Fitness,responds,1
+sportscore.com,1,Sports & Fitness,access_denied,0
 spotsense.io,1,Geocoding,unreachable,0
 spotwatts.com,1,Environment,responds,1
 spotwave.eu,1,Environment,responds,1
@@ -1607,6 +1646,7 @@ svatky.adresa.info,1,Calendar,client_error,0
 swanum.com,1,Shopping,responds,1
 swapi.dev,1,Video,responds,1
 swarmmemo.com,1,Social,responds,1
+swiftedge.uk,1,Cryptocurrency,responds,1
 swiftnodes.io,1,Blockchain,responds,1
 tallytopia.com,1,Science & Math,responds,1
 tanod.dev,1,Security,responds,1
@@ -1632,6 +1672,7 @@ the-one-api.dev,1,Video,responds,1
 theaxolotlapi.netlify.app,1,Animals,responds,1
 thedogapi.com,1,Animals,responds,1
 thegraph.com,1,Blockchain,responds,1
+thenetworkery.com,1,Development,access_denied,0
 theopenapps.com,1,Development,responds,1
 theqrcode.io,1,Development,responds,1
 therundown.io,1,Sports & Fitness,responds,1
@@ -1671,11 +1712,12 @@ tools.yukai.uk,1,Development,responds,1
 top5stocks.netlify.app,1,Finance,responds,1
 touchlinewire.com,1,Sports & Fitness,responds,1
 tourneyradar-api.vercel.app,1,Sports & Fitness,responds,1
+tradingcalendars.com,1,Calendar,responds,1
 tradoshi.com,1,Finance,responds,1
 trakt.docs.apiary.io,1,Video,server_error,0
 transcript-yt.com,1,Video,responds,1
 transitradar.co.uk,1,Transportation,access_denied,0
-translate.hirak.site,1,Text Analysis,access_denied,0
+translate.hirak.site,1,Text Analysis,responds,1
 transparent.pt,1,Vehicle,responds,1
 transport.opendata.ch,1,Transportation,responds,1
 transport.rest,1,Transportation,responds,1
@@ -1683,7 +1725,7 @@ trashnothing.com,1,Social,responds,1
 travelriskapi.com,1,Government,responds,1
 trendsagi.com,1,Business,responds,1
 tronorb.com,1,Cryptocurrency,responds,1
-trove.nla.gov.au,1,News,unreachable,0
+trove.nla.gov.au,1,News,responds,1
 trustlookup.io,1,Email,responds,1
 trustydata.fr,1,Geocoding,responds,1
 tryhired.co,1,Jobs,responds,1
@@ -1724,8 +1766,10 @@ utilorax.com,1,Development,responds,1
 uttesh.com,1,Machine Learning,not_found,0
 v2.jokeapi.dev,1,Entertainment,responds,1
 vadivelu.anoram.com,1,Personality,unreachable,0
+vakaymood.com,1,Transportation,responds,1
 validator.w3.org,1,Development,responds,1
 valorant-api.com,1,Games & Comics,responds,1
+valotcg.com,1,Games & Comics,responds,1
 vampire-diaries-api.netlify.app,1,Video,responds,1
 vantaspec.com,1,Shopping,responds,1
 vatlayer.com,1,Data Validation,responds,1
@@ -1736,16 +1780,19 @@ vedintelastroapi.com,1,Personality,responds,1
 vergabeweiser.de,1,Government,responds,1
 verifiedhandles.org,1,Open Data,responds,1
 verifier.meetchopra.com,1,Email,unreachable,0
+verifyum.com,1,Blockchain,responds,1
 veriphone.io,1,Phone,responds,1
 veriport.io,1,Data Validation,responds,1
 verirouteintel.com,1,Phone,responds,1
+vesselapi.com,1,Transportation,responds,1
 vesselclassfinder.com,1,Transportation,responds,1
 vettedhome.co.uk,1,Open Data,responds,1
 viacep.com.br,1,Geocoding,responds,1
 video-to-markdown.com,1,Video,responds,1
+vidsmaller.com,1,Video,responds,1
 vidwords.com,1,Video,responds,1
 visa.orizn.app,1,Transportation,responds,1
-vk.com,1,Social,unreachable,0
+vk.com,1,Social,responds,1
 voidly.ai,1,Open Data,responds,1
 vornamencheck.de,1,Development,responds,1
 votepredictor.com,1,Government,responds,1
@@ -1761,7 +1808,7 @@ wallhaven.cc,1,Photography,responds,1
 walltime.info,1,Blockchain,unreachable,0
 warnely.com,1,Open Data,not_found,0
 warrant.dev,1,Authentication & Authorization,responds,1
-waterservices.usgs.gov,1,Science & Math,responds,1
+waterservices.usgs.gov,1,Science & Math,unreachable,0
 weatherstack.com,1,Weather,responds,1
 weathertotals.com,1,Weather,responds,1
 web3.storage,1,Cloud Storage & File Sharing,responds,1
@@ -1776,14 +1823,15 @@ whichtrim.com,1,Vehicle,responds,1
 whiskyhunter.net,1,Food & Drink,responds,1
 why21million.com,1,Cryptocurrency,responds,1
 wiki.anidb.net,1,Anime,access_denied,0
-wiki.drivet.xyz,1,URL Shorteners,responds,1
-wiki.guildwars2.com,1,Games & Comics,access_denied,0
+wiki.drivet.xyz,1,URL Shorteners,access_denied,0
+wiki.guildwars2.com,1,Games & Comics,responds,1
 wiki.openstreetmap.org,1,Geocoding,responds,1
 wiki.vg,1,Games & Comics,unreachable,0
 wimberly.solutions,1,Government,responds,1
 windsock.ai,1,Transportation,responds,1
 witness.melek.salon,1,Blockchain,responds,1
 wizard-world-api.herokuapp.com,1,Books,responds,1
+woksteamapi.com,1,Games & Comics,responds,1
 wolnelektury.pl,1,Books,responds,1
 woocommerce.github.io,1,Shopping,responds,1
 wordcloudapi.com,1,Art & Design,responds,1
@@ -1797,8 +1845,9 @@ www.abibliadigital.com.br,1,Books,server_error,0
 www.acrelens.com,1,Open Data,responds,1
 www.adsbexchange.com,1,Transportation,responds,1
 www.aiotrf.com,1,Open Data,responds,1
-www.aiplannermail.com,1,Shopping,responds,1
+www.aiplannermail.com,1,Shopping,server_error,0
 www.aishub.net,1,Transportation,responds,1
+www.aistockradars.com,1,Finance,responds,1
 www.alchemy.com,1,Cryptocurrency,responds,1
 www.alphavantage.co,1,Finance,responds,1
 www.amdoren.com,1,Currency Exchange,responds,1
@@ -1944,7 +1993,7 @@ www.icndb.com,1,Games & Comics,responds,1
 www.inegi.org.mx,1,Government,responds,1
 www.insightsocial.app,1,Social,responds,1
 www.instagram.com,1,Social,responds,1
-www.intellibookai.com,1,Calendar,responds,1
+www.intellibookai.com,1,Calendar,client_error,0
 www.ip2whois.com,1,Development,responds,1
 www.ipify.org,1,Development,responds,1
 www.ipinfodb.com,1,Geocoding,access_denied,0
@@ -1963,6 +2012,7 @@ www.latlng.work,1,Geocoding,responds,1
 www.lectserve.com,1,Calendar,responds,1
 www.linguarobot.io,1,Dictionaries,responds,1
 www.linkpreview.net,1,Open Data,responds,1
+www.llmpvp.com,1,Games & Comics,responds,1
 www.loginradius.com,1,Security,responds,1
 www.mailboxvalidator.com,1,Email,responds,1
 www.mailchannels.com,1,Email,responds,1
@@ -2005,6 +2055,7 @@ www.opendata.nhs.scot,1,Health,responds,1
 www.openfigi.com,1,Finance,responds,1
 www.openligadb.de,1,Sports & Fitness,responds,1
 www.opensanctions.org,1,Open Data,responds,1
+www.openshield.dev,1,Security,responds,1
 www.opensubtitles.com,1,Video,access_denied,0
 www.opentopodata.org,1,Geocoding,responds,1
 www.openuv.io,1,Weather,responds,1
@@ -2085,11 +2136,11 @@ www.trafiklab.se,1,Transportation,responds,1
 www.traileraddict.com,1,Video,not_found,0
 www.transcapi.com,1,Transportation,responds,1
 www.transcriptdock.com,1,Video,responds,1
-www.transit.land,1,Transportation,responds,1
+www.transit.land,1,Transportation,access_denied,0
 www.transitchicago.com,1,Transportation,responds,1
 www.tredict.com,1,Sports & Fitness,responds,1
 www.trendsmcp.ai,1,Social,responds,1
-www.tronalddump.io,1,Games & Comics,unreachable,0
+www.tronalddump.io,1,Games & Comics,responds,1
 www.tubetotranscript.com,1,Video,access_denied,0
 www.tumblr.com,1,Social,responds,1
 www.tvmaze.com,1,Video,responds,1
@@ -2109,7 +2160,7 @@ www.visualcrossing.com,1,Weather,responds,1
 www.weather.gov,1,Weather,responds,1
 www.weatherapi.com,1,Weather,responds,1
 www.weatherbit.io,1,Weather,responds,1
-www.whatjobs.com,1,Jobs,access_denied,0
+www.whatjobs.com,1,Jobs,responds,1
 www.wikidata.org,1,Open Data,responds,1
 www.wordsapi.com,1,Dictionaries,responds,1
 www.workingstudentjobs.de,1,Jobs,access_denied,0

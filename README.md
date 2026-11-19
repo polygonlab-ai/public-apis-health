@@ -67,70 +67,70 @@ nothing more.
 Figures generated at each version, from `data/apis.json`. The entries by category are in [`LIST.md`](LIST.md).
 
 <!-- list:start -->
-List read and tested on 2026-11-14: 2379 APIs on 2149 hosts, in 51 categories. Full files: [`data/apis.json`](data/apis.json) and [`data/apis.csv`](data/apis.csv). List by category: [`LIST.md`](LIST.md).
+List read and tested on 2026-11-19: 2431 APIs on 2200 hosts, in 51 categories. Full files: [`data/apis.json`](data/apis.json) and [`data/apis.csv`](data/apis.csv). List by category: [`LIST.md`](LIST.md).
 
 | Test result | Value | APIs |
 |---|---|---:|
-| Responds | `responds` | 2012 |
-| Access denied | `access_denied` | 138 |
-| Not found | `not_found` | 59 |
-| Client error | `client_error` | 17 |
-| Server error | `server_error` | 18 |
-| Unreachable | `unreachable` | 135 |
-| Not tested | `not_tested` | 0 |
+| Responds | `responds` | 2051 |
+| Access denied | `access_denied` | 146 |
+| Not found | `not_found` | 60 |
+| Client error | `client_error` | 20 |
+| Server error | `server_error` | 22 |
+| Unreachable | `unreachable` | 131 |
+| Not tested | `not_tested` | 1 |
 
 | Category | APIs | Responding |
 |---|---:|---:|
 | Animals | 24 | 22 |
-| Anime | 20 | 17 |
-| Anti-Malware | 17 | 14 |
+| Anime | 21 | 17 |
+| Anti-Malware | 18 | 15 |
 | Art &amp; Design | 33 | 26 |
-| Authentication &amp; Authorization | 6 | 6 |
-| Blockchain | 19 | 17 |
-| Books | 28 | 24 |
-| Business | 54 | 46 |
-| Calendar | 24 | 20 |
+| Authentication &amp; Authorization | 7 | 7 |
+| Blockchain | 20 | 18 |
+| Books | 30 | 26 |
+| Business | 54 | 45 |
+| Calendar | 27 | 22 |
 | Cloud Storage &amp; File Sharing | 20 | 18 |
 | Continuous Integration | 6 | 6 |
-| Cryptocurrency | 108 | 81 |
-| Currency Exchange | 33 | 30 |
+| Cryptocurrency | 114 | 84 |
+| Currency Exchange | 34 | 31 |
 | Data Validation | 17 | 17 |
-| Development | 241 | 214 |
+| Development | 249 | 218 |
 | Dictionaries | 17 | 13 |
-| Documents &amp; Productivity | 64 | 57 |
-| Email | 47 | 43 |
-| Entertainment | 19 | 16 |
+| Documents &amp; Productivity | 66 | 58 |
+| Email | 48 | 44 |
+| Entertainment | 20 | 17 |
 | Environment | 35 | 28 |
 | Events | 6 | 5 |
-| Finance | 110 | 98 |
+| Finance | 114 | 103 |
 | Food &amp; Drink | 36 | 28 |
-| Games &amp; Comics | 115 | 93 |
-| Geocoding | 116 | 106 |
-| Government | 137 | 112 |
-| Health | 52 | 44 |
-| Jobs | 47 | 35 |
-| Machine Learning | 59 | 49 |
-| Music | 37 | 30 |
-| News | 26 | 22 |
-| Open Data | 94 | 86 |
+| Games &amp; Comics | 118 | 97 |
+| Geocoding | 117 | 105 |
+| Government | 142 | 117 |
+| Health | 53 | 46 |
+| Jobs | 47 | 36 |
+| Machine Learning | 60 | 51 |
+| Music | 38 | 30 |
+| News | 26 | 23 |
+| Open Data | 95 | 86 |
 | Open Source Projects | 11 | 10 |
 | Patent | 5 | 4 |
 | Personality | 27 | 19 |
 | Phone | 10 | 10 |
-| Photography | 40 | 31 |
+| Photography | 40 | 33 |
 | Programming | 6 | 5 |
-| Science &amp; Math | 59 | 53 |
-| Security | 66 | 52 |
-| Shopping | 35 | 30 |
-| Social | 62 | 57 |
-| Sports &amp; Fitness | 75 | 65 |
+| Science &amp; Math | 60 | 53 |
+| Security | 67 | 53 |
+| Shopping | 35 | 29 |
+| Social | 62 | 58 |
+| Sports &amp; Fitness | 76 | 65 |
 | Test Data | 37 | 25 |
-| Text Analysis | 20 | 14 |
+| Text Analysis | 20 | 15 |
 | Tracking | 11 | 10 |
-| Transportation | 101 | 84 |
-| URL Shorteners | 21 | 14 |
+| Transportation | 103 | 84 |
+| URL Shorteners | 21 | 13 |
 | Vehicle | 20 | 17 |
-| Video | 61 | 47 |
+| Video | 63 | 47 |
 | Weather | 45 | 42 |
 
 <!-- list:end -->
