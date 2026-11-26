@@ -1,86 +1,86 @@
 {
     "source": "public-apis/public-apis",
     "source_page": "https://github.com/public-apis/public-apis",
-    "lu_le": "2026-11-19T06:48:22+01:00",
-    "source_date": "2026-11-19",
+    "lu_le": "2026-11-26T06:48:15+01:00",
+    "source_date": "2026-11-26",
     "fichiers": [
         {
             "cle": "list",
             "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
-            "sha256": "1e83d0e76c5da345f4270154af23f1dcf52f12f02f458eab7c093f1b3cbc444f",
-            "size": 1072840,
-            "source_sha256": "76386caf705629490bdc4db8ccb2cd246bc16833e5fc7154f5b3745b7976876a",
-            "source_size": 373929,
+            "sha256": "0a0ba4254f4bd1be99a124d8e05e172cceab94a0b2ca131eb12ee58a888540cb",
+            "size": 1097145,
+            "source_sha256": "2853e37a3ce454a91735486dafc137b93e405bb827366f4e25a9a65881215cb0",
+            "source_size": 383840,
             "categories_read": 51,
-            "lines_read": 2441,
+            "lines_read": 2493,
             "lines_set_aside": 4,
             "duplicate_links": 5,
-            "apis_read": 2432,
+            "apis_read": 2484,
             "apis_discarded": 1,
-            "urls_tested": 2431,
-            "requests": 2969,
-            "test_duration_s": 500,
+            "urls_tested": 2484,
+            "requests": 3009,
+            "test_duration_s": 493,
             "set_aside": [
                 {
                     "kind": "duplicate",
-                    "line": 850,
-                    "reason": "same link as \"DownStatus\" (line 797)",
+                    "line": 866,
+                    "reason": "same link as \"DownStatus\" (line 810)",
                     "name": "isitdownstatus",
                     "url": "https://isitdownstatus.com/"
                 },
                 {
                     "kind": "unreadable",
-                    "line": 1292,
+                    "line": 1319,
                     "reason": "6 cells where 5 are expected",
                     "name": "Metal Sentinel",
                     "url": null
                 },
                 {
                     "kind": "unreadable",
-                    "line": 1326,
+                    "line": 1353,
                     "reason": "6 cells where 5 are expected",
                     "name": "TILLA",
                     "url": null
                 },
                 {
                     "kind": "unreadable",
-                    "line": 1592,
+                    "line": 1623,
                     "reason": "6 cells where 5 are expected",
                     "name": "MapQuest",
                     "url": null
                 },
                 {
                     "kind": "unreadable",
-                    "line": 1847,
+                    "line": 1880,
                     "reason": "6 cells where 5 are expected",
                     "name": "THC Open Mindfulness Resources",
                     "url": null
                 },
                 {
                     "kind": "duplicate",
-                    "line": 2012,
-                    "reason": "same link as \"TasteDive\" (line 1163)",
+                    "line": 2047,
+                    "reason": "same link as \"TasteDive\" (line 1186)",
                     "name": "TasteDive",
                     "url": "https://tastedive.com/read/api"
                 },
                 {
                     "kind": "duplicate",
-                    "line": 2205,
-                    "reason": "same link as \"Quotable\" (line 914)",
+                    "line": 2243,
+                    "reason": "same link as \"Quotable\" (line 930)",
                     "name": "Quotable Quotes",
                     "url": "https://github.com/lukePeavey/quotable"
                 },
                 {
                     "kind": "duplicate",
-                    "line": 2327,
-                    "reason": "same link as \"NASA\" (line 2326)",
+                    "line": 2369,
+                    "reason": "same link as \"NASA\" (line 2368)",
                     "name": "NASA InSight",
                     "url": "https://api.nasa.gov/"
                 },
                 {
                     "kind": "duplicate",
-                    "line": 2986,
-                    "reason": "same link as \"Open-Meteo\" (line 1192)",
+                    "line": 3042,
+                    "reason": "same link as \"Open-Meteo\" (line 1215)",
                     "name": "Open-Meteo",
                     "url": "https://open-meteo.com/"
                 }

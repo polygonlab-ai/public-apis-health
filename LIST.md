@@ -4,7 +4,7 @@
 > The list comes from [public-apis/public-apis](https://github.com/public-apis/public-apis) (MIT licence); only the test results are added here.
 > What the test measures, and its limits: see the [README](README.md).
 
-List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the value declared by the list; `Test` is the result of the weekly test of the link.
+List read and tested on 2026-11-26: 2483 APIs in 51 categories. `Auth` is the value declared by the list; `Test` is the result of the weekly test of the link.
 
 ## Animals (24)
 
@@ -49,7 +49,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Danbooru Anime](https://danbooru.donmai.us/wiki_pages/help:api) | Thousands of anime artist database to find good anime art | apiKey | `responds` |
 | [FillerLists](https://fillerlists.com/data) | Filler, mixed and canon labels for every episode of 13 long anime (JSON and CSV) | No | `responds` |
 | [Jikan](https://jikan.moe/) | Unofficial MyAnimeList API | No | `responds` |
-| [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | OAuth | `unreachable` |
+| [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | OAuth | `server_error` |
 | [MangaDex](https://api.mangadex.org/docs/) | Manga Database and Community | apiKey | `responds` |
 | [Mangapi](https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/) | Translate manga pages from one language to another | apiKey | `responds` |
 | [MangaUpdates](https://api.mangaupdates.com/) | Manga database: series, releases, groups and reading lists | No | `responds` |
@@ -84,7 +84,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [VirusTotal](https://docs.virustotal.com/reference/overview) | VirusTotal File/URL Analysis | apiKey | `responds` |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | apiKey | `access_denied` |
 
-## Art &amp; Design (33)
+## Art &amp; Design (35)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -96,6 +96,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | apiKey | `access_denied` |
 | [Dribbble](https://developer.dribbble.com/) | Discover the world’s top designers &amp; creatives | OAuth | `responds` |
 | [DummyImage](https://dummyimage.com/) | Generate placeholder images with custom size, colors and text | No | `responds` |
+| [DummyImg](https://www.dummyimg.in/) | Generate placeholder images of any size with custom text, colors, fonts and formats | No | `responds` |
 | [EmojiHub](https://github.com/cheatsnake/emojihub) | Get emojis by categories and groups | No | `responds` |
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | European Museum and Galleries content | apiKey | `access_denied` |
 | [Face Shape Guide Lookup](https://myfaceshapechart.com/openapi.json) | Read-only lookup for published face-shape guide records | No | `responds` |
@@ -105,6 +106,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Iconfinder](https://developer.iconfinder.com/) | Icons | apiKey | `access_denied` |
 | [Iconify](https://iconify.design/docs/api/) | Search and fetch SVG icons from 200+ open source icon sets | No | `responds` |
 | [Icons8](https://img.icons8.com/) | Icons (find "search icon" hyperlink in page) | No | `responds` |
+| [Logoapi Favicons](https://logoapi.sh/favicon) | Favicon for any website by domain: curated SVG, else the site's own favicon, else a name tile | No | `responds` |
 | [Lordicon](https://lordicon.com/) | Icons with predone Animations | No | `responds` |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | `responds` |
 | [Noun Project](http://api.thenounproject.com/index.html) | Icons | OAuth | `responds` |
@@ -122,11 +124,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [UpRes](https://upres.ai/docs/api) | AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR) | apiKey | `responds` |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | apiKey | `responds` |
 
-## Authentication &amp; Authorization (7)
+## Authentication &amp; Authorization (8)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [Auth0](https://auth0.com/) | Easy to implement, adaptable authentication and authorization platform | apiKey | `responds` |
+| [Frontegg](https://developers.frontegg.com/ciam/api/overview) | Customer identity for B2B SaaS: authentication, SSO, SCIM, MFA, RBAC and multi-tenancy | apiKey | `responds` |
 | [GetOTP](https://otp.dev/en/docs/) | Implement OTP flow quickly | apiKey | `responds` |
 | [MojoAuth](https://mojoauth.com/) | Secure and modern passwordless authentication platform | apiKey | `responds` |
 | [SAWO Labs](https://sawolabs.com/) | Simplify login and improve user experience by integrating passwordless authentication in your app | apiKey | `responds` |
@@ -179,7 +182,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Greenlit Books](https://greenlitbooks.com/developers) | Catalog of practical AI books with search, series, glossary and a claim ledger | No | `responds` |
 | [GurbaniNow](https://github.com/GurbaniNow/api) | Fast and Accurate Gurbani RESTful API | No | `not_found` |
 | [Gutendex](https://gutendex.com/) | Web-API for fetching data from Project Gutenberg Books Library | No | `access_denied` |
-| [KDP Intelligence](https://kdp-intelligence-api.vercel.app/docs) | KDP niche demand scores, competition analysis and revenue estimates | No | `responds` |
+| [KDP Intelligence](https://kdp-intelligence-api.vercel.app/docs) | KDP niche demand scores, competition analysis and revenue estimates | No | `not_found` |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | `responds` |
 | [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | `responds` |
 | [PoetryDB](https://github.com/thundercomb/poetrydb#readme) | Enables you to get instant data from our vast poetry collection | No | `responds` |
@@ -194,11 +197,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | Get information from the Harry Potter universe | No | `responds` |
 | [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | `responds` |
 
-## Business (54)
+## Business (58)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | apiKey | `responds` |
+| [CEA Digital](https://ceadigital.io/tools) | Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits | apiKey | `responds` |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | apiKey | `responds` |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | apiKey | `responds` |
 | [Compabase](https://compabase.com/docs/) | Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings | apiKey | `responds` |
@@ -219,17 +223,19 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Katalis](https://meetkatalis.com/apis) | UK company checks: payment practices, contracts won, registers, filed accounts, change feed | apiKey | `responds` |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | Russian company data from state registers by INN or OGRN: profile, finances, timeline | No | `responds` |
 | [Leadgen Romania](https://leadgen.adrianhomelab.com/docs) | Romanian company registry, ANAF tax status and financial statements | apiKey | `responds` |
+| [LeadMerlin](https://leadmerlin.com/docs/) | Local business leads from Google Maps with owner names, checked emails and website tech stack | apiKey | `responds` |
 | [Legal Sandbox Georgia](https://legal.ge/api/openapi.json) | Find verified legal specialists in Georgia from natural-language queries | No | `responds` |
-| [Logoapi](https://logoapi.sh/docs) | Free SVG company logos by domain, plus search by name. No signup | No | `responds` |
+| [Logoapi](https://logoapi.sh/docs) | SVG logos by domain, stock ticker or crypto symbol, plus favicons and search by name. No signup | No | `responds` |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | apiKey | `responds` |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | apiKey | `responds` |
-| [markerapi](https://markerapi.com/) | Trademark Search | No | `server_error` |
+| [markerapi](https://markerapi.com/) | Trademark Search | No | `responds` |
 | [Meirra](https://meirra.com/api) | SEO monitoring, email verification, lead generation, and marketing analytics | apiKey | `responds` |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | apiKey | `unreachable` |
 | [PeopleSearch](https://peoplesearch.im/developers) | People and company search in plain English, with verified work emails and email verification | apiKey | `responds` |
 | [Pick an Agency](https://www.pickanagency.com/developers) | Search 47,000+ marketing agencies by service, location and rating | No | `responds` |
 | [RankFabrik Places](https://rankfabrik.com/produits/etablissements) | Search businesses and points of interest by city, deduplicated with a coverage report | apiKey | `responds` |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | apiKey | `responds` |
+| [RegBase Japan Company Verification](https://regbase.local-connect-design.trade/) | Signed evidence records for Japanese companies by corporate number, with Ed25519 verification | No | `responds` |
 | [RegisterWire](https://www.registerwire.uk/docs/index.html) | Real-time alerts on UK company register changes | apiKey | `responds` |
 | [Requstory](https://requstory.com/developers/api/) | How companies work: teams, processes, ease scores and AI-readiness from public websites | apiKey | `responds` |
 | [RunDossier](https://rundossier.com/docs/api) | Pre-meeting briefing on a person from public professional and web sources, as JSON | apiKey | `responds` |
@@ -250,6 +256,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [TrendsAGI](https://trendsagi.com/api-docs) | Trending topic volume, velocity and growth with AI insights; free plan of 100 calls/day | apiKey | `responds` |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | `responds` |
 | [Verif Entreprise FR](https://api-production-24833.up.railway.app/) | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | No | `responds` |
+| [Vibe Manufacturing](https://vibe-manufacturing.com/agents) | Manufacturer directory with supplier matching, cost estimates and prototype sourcing plans | No | `responds` |
 | [Village](https://docs.village.ai/) | Person and company enrichment plus warm introduction paths through your network | apiKey | `responds` |
 | [W System EU Business Data](https://api.wsystem.dev/docs) | EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening | No | `responds` |
 
@@ -270,7 +277,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [HolidayExplore](https://holidayexplore.com/api-docs/) | Global public holidays and bank closures | No | `access_denied` |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | apiKey | `responds` |
 | [India Public Holidays](https://calendar-api-web.vercel.app/docs) | Official Indian public holidays for the Central government and 36 states/UTs | No | `responds` |
-| [Intellibook](https://www.intellibookai.com/docs) | Appointment booking and availability API for salons and clinics | No | `client_error` |
+| [Intellibook](https://www.intellibookai.com/docs) | Appointment booking and availability API for salons and clinics | No | `responds` |
 | [Kalenderblick](https://kalenderblick.de/api/) | Public holidays and school holidays for Germany, Austria and Switzerland as static JSON | No | `responds` |
 | [LectServe](http://www.lectserve.com/) | Protestant liturgical calendar | No | `responds` |
 | [Mother's Day Calendar](https://mothersdaycalendar.com/en/api/) | Mother's Day dates, country rules, sources and confidence as static JSON and CSV | No | `responds` |
@@ -358,7 +365,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [CoinCap](https://docs.coincap.io/) | Real time Cryptocurrency prices through a RESTful API | No | `responds` |
 | [CoinDCX](https://docs.coindcx.com/) | Cryptocurrency Trading Platform | apiKey | `responds` |
 | [CoinGecko](http://www.coingecko.com/api) | Cryptocurrency Price, Market, and Developer/Social Data | No | `access_denied` |
-| [Coinigy](https://coinigy.docs.apiary.io/) | Interacting with Coinigy Accounts and Exchange Directly | apiKey | `responds` |
+| [Coinigy](https://coinigy.docs.apiary.io/) | Interacting with Coinigy Accounts and Exchange Directly | apiKey | `unreachable` |
 | [Coinlayer](https://coinlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Crypto Currency Exchange Rates | apiKey | `responds` |
 | [Coinlib](https://coinlib.io/) | Crypto Currency Prices | apiKey | `responds` |
 | [CoinLobster](https://coinlobster.com/developers) | Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar | No | `responds` |
@@ -372,7 +379,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | `responds` |
 | [CoinXview](https://coinxview.com/en/api-mien-phi) | Real-time crypto prices aggregated from 22 exchanges, OHLC, market stats, Fear &amp; Greed | No | `responds` |
 | [CorpStacking](https://www.corpstacking.com/feed.json) | Corporate, government and ETF Bitcoin, Ethereum and Solana treasury disclosures | No | `responds` |
-| [Cosmos Pay](https://dev.cosmospay.lat/docs/api/) | Stablecoin payment links, checkout and swaps on Stellar, Solana and Monad | apiKey | `access_denied` |
+| [Cosmos Pay](https://dev.cosmospay.lat/docs/api/) | Stablecoin payment links, checkout and swaps on Stellar, Solana and Monad | apiKey | `responds` |
 | [CryptAPI](https://docs.cryptapi.io/) | Cryptocurrency Payment Processor | No | `responds` |
 | [CryptingUp](https://www.cryptingup.com/apidoc/#introduction) | Cryptocurrency data | No | `access_denied` |
 | [Crypto Vision](https://cryptocurrency.cv/developers) | Free crypto news aggregator with market context, JSON REST and RSS | No | `responds` |
@@ -392,7 +399,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Gasrent](https://gasrent.click/api.html) | TRON energy and bandwidth rental aggregator with public price and health endpoints | apiKey | `responds` |
 | [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | apiKey | `responds` |
 | [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | `responds` |
-| [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency &amp; 300 crypto currency update each 5 min, accurate, no limits | apiKey | `access_denied` |
+| [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency &amp; 300 crypto currency update each 5 min, accurate, no limits | apiKey | `responds` |
 | [HostDeFi](https://hostdefi.com/docs/api/) | Free A+–F token-safety grades across Solana and EVM chains | No | `responds` |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en/) | Seychelles based cryptocurrency exchange | apiKey | `responds` |
 | [Hyperliquid Market Data](https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest) | Hyperliquid open interest, funding and cross-venue predicted rates per coin | apiKey | `responds` |
@@ -408,12 +415,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [MarginPad](https://marginpad.io/free-crypto-api/) | Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges | No | `responds` |
 | [Mempool](https://mempool.space/api) | Bitcoin API Service focusing on the transaction fee | No | `responds` |
 | [MercadoBitcoin](https://www.mercadobitcoin.com.br/api-doc/) | Brazilian Cryptocurrency Information | No | `access_denied` |
-| [Messari](https://messari.io/api) | Provides API endpoints for thousands of crypto assets | No | `not_found` |
+| [Messari](https://messari.io/api) | Provides API endpoints for thousands of crypto assets | No | `client_error` |
 | [Mexc](https://www.mexc.com/api-docs) | Cryptocurrency info, place order | apiKey | `access_denied` |
 | [monerometrics](https://monerometrics.net/) | Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations | No | `responds` |
 | [MyCryptoSignal](https://mycryptosignal.com/api/) | Crypto market data: daily direction signals, prices, on-chain and news snapshots | apiKey | `responds` |
 | [Nansen](https://docs.nansen.ai/api/overview) | Labeled wallets, Smart Money flows, token holders and flows, wallet PnL, perps and Polymarket data | apiKey | `responds` |
-| [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | `unreachable` |
+| [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | `responds` |
 | [Nomics](https://nomics.com/docs/) | Historical and realtime cryptocurrency prices and market data | apiKey | `unreachable` |
 | [NovaDax](https://doc.novadax.com/en-US/#introduction) | NovaDAX API to access all market data, trading management endpoints | apiKey | `server_error` |
 | [OKEx](https://www.okex.com/docs/) | Cryptocurrency exchange based in Seychelles | apiKey | `unreachable` |
@@ -440,7 +447,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Zennet](https://zennet.cloud/) | x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle | No | `unreachable` |
 | [ZMOK](https://zmok.io/) | Ethereum JSON RPC API and Web3 provider | No | `responds` |
 
-## Currency Exchange (34)
+## Currency Exchange (35)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -477,13 +484,15 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Rate-API](https://rate-api.com/docs/api) | Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month | apiKey | `responds` |
 | [TaxID](https://www.taxid.dev/docs) | EU VAT number validation with company name and address lookup across all 27 member states | apiKey | `responds` |
 | [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | `not_found` |
+| [VeriApi](https://veriapi.pro/dokumantasyon) | Turkish exchange rates, gold prices, prayer times, earthquakes and holidays | apiKey | `responds` |
 | [XRates](https://xratesapi.com/docs) | Latest and historical exchange rates aggregated from ECB, CBR and open data feeds, 300+ currencies | apiKey | `responds` |
 
-## Data Validation (17)
+## Data Validation (18)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [Attestwire](https://api.attestwire.com/docs) | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | apiKey | `responds` |
+| [EU VAT Format Check](https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker) | EU VAT format and check-digit checker for 11 countries (format only, not a registration check) | apiKey | `responds` |
 | [invowerk](https://invowerk.dev/docs) | Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report | apiKey | `responds` |
 | [Lob.com](https://lob.com/) | US Address Verification | apiKey | `responds` |
 | [Postman Echo](https://www.postman-echo.com/) | Test api server to receive and return value from HTTP method | No | `responds` |
@@ -501,7 +510,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [VerifNow](https://docs.verifnow.io/) | Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs | apiKey | `responds` |
 | [Veriport](https://veriport.io/docs) | EU VAT validation (VIES), VAT rates, IBAN validation, French company data | apiKey | `responds` |
 
-## Development (249)
+## Development (255)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -529,7 +538,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | OAuth | `responds` |
 | [Blague.xyz](https://blague.xyz/) | La plus grande API de Blagues FR/The biggest FR jokes API | apiKey | `responds` |
 | [Blitapp](https://blitapp.com/api/) | Schedule screenshots of web pages and sync them to your cloud | apiKey | `responds` |
-| [Blynk-Cloud](https://blynkapi.docs.apiary.io/#) | Control IoT Devices from Blynk IoT Cloud | apiKey | `unreachable` |
+| [Blynk-Cloud](https://blynkapi.docs.apiary.io/#) | Control IoT Devices from Blynk IoT Cloud | apiKey | `server_error` |
 | [Bored](https://bored-api.appbrewery.com/) | Find random activities to fight boredom | No | `responds` |
 | [BountyCheck](https://bountycheck.vercel.app/) | Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402 | No | `responds` |
 | [Brainshop.ai](https://brainshop.ai/) | Make A Free A.I Brain | apiKey | `access_denied` |
@@ -565,11 +574,13 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | `responds` |
 | [dotsweep](https://dotsweep.com/docs) | Domain availability across 1200+ TLDs with registration and renewal prices | No | `responds` |
 | [DownStatus](https://isitdownstatus.com/) | Real-time status for GitHub, AWS, Discord and 90+ services | No | `client_error` |
+| [DuckDuckGo](https://api.duckduckgo.com/) | Instant answers, abstracts and definitions | No | `responds` |
 | [EndOfLife.date](https://endoflife.date/docs/api) | Software end-of-life dates and support lifecycles | No | `responds` |
 | [Enterno](https://enterno.io/en/api-docs) | HTTP headers, DNS, SSL, WHOIS and redirect checks as plain text, JSON or CSV | No | `responds` |
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | `responds` |
 | [Fair Draw](https://bettip.co.za/fair-draw/api/) | Verifiable random draws bound to the drand public randomness beacon | No | `responds` |
 | [Framejet](https://framejet.dev/docs) | Website screenshot API with cookie banners and chat widgets removed; free tier | apiKey | `server_error` |
+| [FreeQrly](https://freeqrly.com/developers/) | Generate static QR codes (URL, WiFi, vCard, text, geo) as SVG or PNG. Free, no API key | No | `access_denied` |
 | [GcrawlAI](https://gcrawlai.com/) | Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors | apiKey | `responds` |
 | [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | apiKey | `responds` |
 | [Genderize.io](https://genderize.io/) | Estimates a gender from a first name | No | `responds` |
@@ -601,6 +612,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Hourora](https://hourora.app/en/developers) | Current time, DST-aware conversion, all IANA zones with clock changes, city and coordinate lookup | No | `responds` |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | `responds` |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request &amp; Response Service | No | `responds` |
+| [Hundredth Run GPU Prices](https://hundredthrun-compute-desk.pages.dev/open-data) | GPU rental prices from 25 cloud providers with source URLs, as static JSON and CSV, CC BY 4.0 | No | `responds` |
 | [Hunter](https://hunter.io/api) | API for domain search, professional email finder, author finder and email verifier | apiKey | `responds` |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | apiKey | `responds` |
 | [Icanhazepoch](https://icanhazepoch.com/) | Get Epoch time | No | `responds` |
@@ -609,14 +621,14 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | `responds` |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | apiKey | `responds` |
 | [Index Agentica](https://indexagentica.com/agents/) | Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt | No | `responds` |
-| [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | No | `access_denied` |
+| [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | No | `responds` |
 | [IP2WHOIS Information Lookup](https://www.ip2whois.com/) | WHOIS domain name lookup | apiKey | `responds` |
 | [ipfind.io](https://ipfind.io/) | Geographic location of an IP address or any domain name along with some other useful information | apiKey | `access_denied` |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | `responds` |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | `responds` |
 | [ipv4 Network Tools](https://ipv4.fr/docs.html) | DNS, WHOIS, SSL, email validation, IP geolocation and blacklist lookups | apiKey | `responds` |
 | [Ironfang Render](https://ironfang.com/render/docs) | Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML | apiKey | `responds` |
-| [Is This Site Down?](https://downforjustmeoreveryone.com/api) | Check if any website is down, from two continents; live status, uptime history and TLS expiry | No | `not_tested` |
+| [Is This Site Down?](https://downforjustmeoreveryone.com/api) | Check if any website is down, from two continents; live status, uptime history and TLS expiry | No | `unreachable` |
 | [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | `responds` |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | `responds` |
 | [JSONbin.io](https://jsonbin.io/) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | apiKey | `responds` |
@@ -739,8 +751,10 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [TinyMind Agent Tools](https://tinymind.eu/api/) | Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping | No | `responds` |
 | [ToolForte](https://toolforte.com/developers) | Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays, test data | apiKey | `responds` |
 | [ToolsFox Utils](https://cf-workers-demo.pianfox345.workers.dev/) | Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random strings | No | `responds` |
+| [TradingAIHub](https://tradingaihub.com/developers/) | Directory of finance and trading AI tools (MCP servers, agent skills, APIs), re-checked weekly | No | `responds` |
 | [Tyk](https://tyk.io/open-source-api-gateway/) | Api and service management platform | apiKey | `responds` |
 | [unfurlr](https://unfurlr.onrender.com/docs) | Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed | apiKey | `responds` |
+| [Unique.domains](https://unique.domains/api) | Analyse any domain name in depth and search 34 million one-word names for the right one to buy | No | `responds` |
 | [URLpipe](https://urlpipe.dev/docs) | Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome | apiKey | `responds` |
 | [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | OAuth | `responds` |
 | [Utilorax](https://utilorax.com/api) | 203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion | apiKey | `responds` |
@@ -751,6 +765,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | apiKey | `responds` |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | apiKey | `responds` |
 | [WeInc](https://my.we.inc/docs/api) | AI website builder: manage clients, website projects, templates and webhooks | apiKey | `responds` |
+| [What Is My IP by RahaKit](https://rahakit.com/what-is-my-ip/) | Free IP lookup API returning IPv4/IPv6, geolocation, ASN and network details as JSON | No | `responds` |
 | [XLSX Inspector](https://api.lifestep.io/) | Inspect XLSX/XLSM structure: sheets, formulas, macros and external links | No | `responds` |
 | [Yumi Wheel Evidence](https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence) | Intersect wheel tags for explicit PyPI releases with caller-supplied tags | No | `responds` |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | apiKey | `responds` |
@@ -777,7 +792,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Words](https://www.wordsapi.com/docs/) | Definitions and synonyms for more than 150,000 words | apiKey | `responds` |
 | [WordSoHard](https://wordsohard.com/api) | Word definitions with Scrabble validity and tile score in one call, built for word games | No | `access_denied` |
 
-## Documents &amp; Productivity (66)
+## Documents &amp; Productivity (67)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -787,7 +802,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Api2Convert](https://www.api2convert.com/) | Online File Conversion API | apiKey | `responds` |
 | [apilayer pdflayer](https://pdflayer.com/) | HTML/URL to PDF | apiKey | `responds` |
 | [Asana](https://developers.asana.com/docs) | Programmatic access to all data in your asana system | apiKey | `responds` |
-| [Assinafy](https://api.assinafy.com.br/v1/docs) | Brazilian e-signature API with a free plan | apiKey | `responds` |
+| [Assinafy](https://api.assinafy.com.br/v1/docs) | Brazilian e-signature API with a free plan | apiKey | `access_denied` |
 | [BuildPDF](https://buildpdf.co/api/docs) | Convert HTML, images, and text to PDF | apiKey | `responds` |
 | [CleverUtils](https://cleverutils.com/api) | Convert files between 200+ formats, free with no API key | No | `responds` |
 | [ClickUp](https://clickup.com/api) | ClickUp is a robust, cloud-based project management tool for boosting productivity | OAuth | `responds` |
@@ -804,12 +819,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Emboss](https://getemboss.ai/docs) | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | apiKey | `responds` |
 | [emissaoja](https://emissaoja.com.br/docs/) | Issue Brazilian NFS-e service invoices via Emissor Nacional, no digital certificate; free sandbox | apiKey | `responds` |
 | [FaturaPDF](https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj) | Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR | apiKey | `responds` |
-| [flatmark](https://flatmark.dev/docs) | Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents | apiKey | `responds` |
+| [flatmark](https://flatmark.dev/docs) | Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents | apiKey | `unreachable` |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | apiKey | `responds` |
 | [Formfeed](https://docs.formfeed.dev/api/overview) | Render PDFs and images from HTML (Jinja2, Liquid, Handlebars) or Word templates, with a free tier | apiKey | `responds` |
 | [FynePDF](https://fynepdf.com/developers/docs) | Compress, convert, OCR, redact, merge, split and generate PDFs, and read them with AI | apiKey | `responds` |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | apiKey | `responds` |
-| [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | apiKey | `server_error` |
+| [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | apiKey | `responds` |
 | [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | OAuth | `responds` |
 | [KaijuConverter](https://kaijuconverter.com/api-docs) | Convert 201+ file formats, OCR, PDF/A &amp; exact KB compression | No | `responds` |
 | [Mattermost](https://api.mattermost.com/) | An open source platform for developer collaboration | OAuth | `responds` |
@@ -819,11 +834,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | OAuth | `responds` |
 | [OCR.Space](https://ocr.space/ocrapi) | OCR text extraction from images and PDFs with a free tier | apiKey | `responds` |
 | [Optiic](https://optiic.dev/) | OCR that extracts text from images and PDFs, with optional translation of the result | apiKey | `responds` |
+| [PagedPDF](https://pagedpdf.com/docs/) | Convert HTML to PDF in current Chrome, with repeating table headers and page numbers | apiKey | `responds` |
 | [PandaDoc](https://developers.pandadoc.com/) | DocGen and eSignatures API | apiKey | `responds` |
 | [PDFDispatch](https://docs.pdfdispatch.com/) | HTML, URLs, Markdown and Office files to PDF, plus merge, split and PDF/A. EU-hosted, free tier | apiKey | `responds` |
 | [PDFFleet](https://pdffleet.com/) | HTML and URL to PDF API with templates and a free tier | apiKey | `server_error` |
 | [PDFMint](https://pdf.mintapis.com/docs) | HTML, Markdown or a URL to PDF or PNG, with a no-key demo endpoint and a free tier | apiKey | `responds` |
-| [pdfrender](https://pdfrender.dev/docs) | HTML and CSS to PDF with page headers, footers and page numbers, no headless browser | apiKey | `responds` |
+| [pdfrender](https://pdfrender.dev/docs) | HTML and CSS to PDF with page headers, footers and page numbers, no headless browser | apiKey | `unreachable` |
 | [PenlyDoc](https://penlydoc.com/docs) | EU e-signature API: templates, embedded signing page, webhooks and sealed PDFs; free tier | apiKey | `responds` |
 | [Pocket](https://getpocket.com/developer/) | Bookmarking service | OAuth | `server_error` |
 | [Podio](https://developers.podio.com/) | File sharing and productivity | OAuth | `responds` |
@@ -848,10 +864,11 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Zero Retention PDF](https://xeropdf.com/) | Zero-retention HTML to PDF conversion | apiKey | `unreachable` |
 | [Zube](https://zube.io/docs/api) | Full stack project management | OAuth | `responds` |
 
-## Email (48)
+## Email (50)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
+| [AgentiSend](https://agentisend.com/docs) | Transactional email API for apps, with per-key send budgets and a kill switch for AI agents | apiKey | `responds` |
 | [AGPC Domain Check](https://guild.tradeuniquecapital.com/api) | Check a domain's SPF, DKIM, DMARC and MX with a graded shareable report | No | `unreachable` |
 | [anon.li](https://anon.li/docs/api) | Create and manage anonymous email aliases, forwarding recipients and custom domains | apiKey | `responds` |
 | [Atomic Mail](https://atomic-mail.github.io/atomic-mail-agentic/) | Email for AI agents: programmatic inbox creation and send/receive over JMAP | apiKey | `responds` |
@@ -873,13 +890,14 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Kickbox](https://open.kickbox.com/) | Email verification API | No | `responds` |
 | [Kiprio Email Validate](https://kiprio.com/v1/email-validate) | Free email validation: MX check, disposable detection, syntax | apiKey | `not_found` |
 | [mail.gw](https://docs.mail.gw/) | 10 Minute Mail | No | `responds` |
-| [mail.tm](https://docs.mail.tm/) | Temporary Email Service | No | `access_denied` |
+| [mail.tm](https://docs.mail.tm/) | Temporary Email Service | No | `responds` |
 | [mailboxlayer](https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Email address validation | apiKey | `responds` |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | Validate email address to improve deliverability | apiKey | `responds` |
 | [MailChannels](https://www.mailchannels.com/email-api/) | Send transactional email over HTTPS with official JavaScript, Python and PHP SDKs | apiKey | `responds` |
 | [MailCheck.ai](https://www.mailcheck.ai/#documentation) | Prevent users to sign up with temporary email addresses | No | `responds` |
 | [mailfloss](https://developers.mailfloss.com/) | Stop spam signups: block disposable and invalid emails and suggest typo fixes. 500 free a month | apiKey | `responds` |
 | [Mailfornet](https://mailfornet.com/api) | Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks | apiKey | `responds` |
+| [MailMint](https://mailmint.app.mintapis.com/docs) | Parse inbound emails into JSON fields you define, each with a confidence score and evidence | apiKey | `responds` |
 | [MailRambo](https://www.mailrambo.com/developers) | Verify email deliverability with a strict yes/no, disposable and catch-all detection | apiKey | `responds` |
 | [MailSenpai DNS Check](https://en.mailsenpai.com/dns-check-api/) | Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish | No | `responds` |
 | [MailTester Ninja](https://mailtester.ninja/api/) | Verify email addresses live with the mail server, catch-all and disposable detection, free tier | apiKey | `responds` |
@@ -901,7 +919,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Vetto](https://usevetto.com/docs#domain-lookup) | Check email domains in bulk for disposable providers and dead domains, no key needed | No | `responds` |
 | [Xeramail Temp Mail](https://xeramail.com/docs/api) | Temp email address REST API for privacy, testing, automation with OTP extraction | apiKey | `responds` |
 
-## Entertainment (20)
+## Entertainment (21)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -911,12 +929,13 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | REST API for Corporate Buzz Words | No | `responds` |
 | [CosmyDay Astrology](https://cosmyday.com/api-docs) | Natal charts and sky events computed from Swiss Ephemeris | No | `responds` |
 | [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | `not_found` |
-| [Fun Fact](https://api.aakhilv.me/) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | `unreachable` |
+| [Fun Fact](https://api.aakhilv.me/) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | `access_denied` |
 | [Green Screen Memes](https://api.greenscreenmemes.app/docs) | Search 2,000+ green screen meme video clips, most with sound, new clips daily | apiKey | `responds` |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | `responds` |
 | [JokeAPI](https://v2.jokeapi.dev/) | Programmable jokes in multiple languages with filtering options | No | `responds` |
 | [justmeme.wtf](https://justmeme.wtf/api-docs) | Free meme API with 2400+ templates, search, trending, and AI generation | No | `responds` |
 | [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | `responds` |
+| [memeidea](https://memeidea.com/api/) | Meme trend scoreboards: lifecycle stage, momentum, trending and new templates | No | `responds` |
 | [Memesio](https://memesio.com/developers/api) | Meme creation API with templates, editable captions and hosted share links | No | `responds` |
 | [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | `responds` |
 | [PotterDB](https://docs.potterdb.com/) | Harry Potter universe database with characters, spells, potions and more | No | `responds` |
@@ -926,7 +945,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Yes or No Oracle](https://yesnooracle.app/api) | Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more) | No | `responds` |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | `responds` |
 
-## Environment (35)
+## Environment (36)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -954,6 +973,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [PM25.in](http://www.pm25.in/api_doc) | Air quality of China | apiKey | `unreachable` |
 | [PVGIS](https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/getting-started-pvgis/api-non-interactive-service) | EU solar radiation and photovoltaic performance estimates | No | `responds` |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | apiKey | `unreachable` |
+| [Rebase Grid](https://grid.rebase.energy/docs/v1) | European electricity prices, load, generation, forecasts and cross-border flows | No | `responds` |
 | [Sähkön hinta nyt](https://xn--shknhintanyt-gcb8w.org/integraatiot/) | Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours | No | `responds` |
 | [sensor.community](https://github.com/opendata-stuttgart/meta/wiki/EN-APIs) | Community air quality sensor network data worldwide | User-Agent | `responds` |
 | [SoilPoint](https://soilpoint.dev/docs) | US soil properties at a lat/lon from USDA SSURGO: texture, drainage, pH, organic matter | No | `responds` |
@@ -966,18 +986,19 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [WattFigure](https://api.wattfigure.com/) | US electricity rates by state, with appliance and EV charging running costs | No | `responds` |
 | [Website Carbon](https://api.websitecarbon.com/) | API to estimate the carbon footprint of loading web pages | No | `access_denied` |
 
-## Events (6)
+## Events (7)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | OAuth | `responds` |
 | [FindLocal](https://findlocal.community/docs) | Hyper-local US events: concerts, trivia, open mics, readings, storytimes | apiKey | `access_denied` |
+| [Lineup Atlas](https://lineupatlas.com/en/data-partners) | Club nights, festivals and artist tour dates worldwide | No | `responds` |
 | [NeedATicket](https://needaticket.co.uk/developers) | UK and US resale ticket prices from StubHub | No | `responds` |
 | [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | apiKey | `responds` |
 | [Things To Do](https://thingstodoapi.com/docs/) | Local events in plain words: concerts, pop-ups, markets, classes, gallery nights | No | `responds` |
 | [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | apiKey | `responds` |
 
-## Finance (114)
+## Finance (116)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -987,15 +1008,17 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | apiKey | `responds` |
 | [Arkleon](https://arkleon.com/) | Point-in-time SEC EDGAR fundamentals over /v1 | apiKey | `responds` |
 | [AuraStream](https://aurastream.unbiased-alpha.com/docs/) | Crypto, FX, macro, COT, SEC filings and alt data from 47 sources through one endpoint and one schema | apiKey | `responds` |
-| [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | OAuth | `responds` |
+| [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | OAuth | `access_denied` |
 | [Bank Data](https://apilayer.com/marketplace/bank_data-api) | Instant IBAN and SWIFT number validation across the globe | apiKey | `responds` |
 | [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) | Which US business banking providers accept founders by country of residence, with sources | No | `responds` |
 | [Billionaire Tracker](https://billionairetracker.us/developers) | Live net worth, rank and daily change for 3,400+ billionaires, free tier for the top 25 | No | `responds` |
 | [Billplz](https://www.billplz.com/api) | Payment platform | apiKey | `responds` |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | `responds` |
+| [bluerate](https://www.bluerate.ai/developers) | Licensed US mortgage loan officers by state, city, ZIP, loan type or language, with NMLS IDs | No | `responds` |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | apiKey | `responds` |
 | [Brainy Prices](https://prices.brainy.ae/developers.html) | UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources | No | `responds` |
 | [BriefTape](https://brieftape.com/) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | apiKey | `responds` |
+| [CalcBloc](https://calcbloc.com/developers) | Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN | apiKey | `responds` |
 | [CardBinCheck](https://cardbincheck.com/bin-lookup-api) | Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits | No | `responds` |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | apiKey | `responds` |
 | [Clear Street](https://docs.clearstreet.com/?utm_source=github&utm_medium=developer&utm_campaign=api_listings&utm_content=public_apis) | Trade US stocks and options, with market data, fundamentals and account data | apiKey | `responds` |
@@ -1057,7 +1080,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [PIT Financial State](https://agent-economy-pit-evaluation.onrender.com/docs) | Point-in-time quarterly revenue for 20 U.S. issuers | apiKey | `server_error` |
 | [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data | apiKey | `responds` |
 | [Polygon](https://polygon.io/) | Historical stock market data | apiKey | `responds` |
-| [PolyKal Fees](https://polymarket-kalshi.com/fee-schedule/) | Kalshi &amp; Polymarket trading fee rates and formulas as verified JSON | No | `responds` |
+| [PolyKal Fees](https://polymarket-kalshi.com/fee-schedule/) | Kalshi &amp; Polymarket trading fee rates and formulas as verified JSON | No | `unreachable` |
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | `responds` |
 | [QuiVad](https://www.quivad.com/api) | Net short positions disclosed to 23 market regulators, fund by fund, since 2010 | No | `responds` |
 | [Quotelinks SEC Fundamentals](https://www.quotelinks.com/api/sec-fundamentals/) | Standardized financial statements, profiles and filings for 21,000+ companies from SEC EDGAR | No | `responds` |
@@ -1137,7 +1160,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | `responds` |
 | [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | apiKey | `responds` |
 
-## Games &amp; Comics (118)
+## Games &amp; Comics (120)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1193,7 +1216,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Humor](https://humorapi.com/) | Humor, Jokes, and Memes | apiKey | `responds` |
 | [Hypixel](https://api.hypixel.net/) | Hypixel player stats | apiKey | `responds` |
 | [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | Data on all interactive items from The Legend of Zelda: BOTW | No | `responds` |
-| [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | `unreachable` |
+| [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | `responds` |
 | [IGDB.com](https://api-docs.igdb.com/) | Video Game Database | apiKey | `responds` |
 | [JokeAPI](https://sv443.net/jokeapi/v2/) | Programming, Miscellaneous and Dark Jokes | No | `responds` |
 | [Jokes One](https://jokes.one/api/joke/) | Joke of the day and large category of jokes accessible via REST API | apiKey | `responds` |
@@ -1221,6 +1244,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | `responds` |
 | [Pokémon TCG](https://pokemontcg.io/) | Pokémon TCG Information | No | `responds` |
 | [PokéSprite](https://msikma.github.io/pokesprite/) | Database of Pokémon sprites and icons | No | `responds` |
+| [PokéWallet](https://pokewallet.io/api-docs) | Pokémon TCG, One Piece and 10 more card games: cards, sets, TCGplayer and Cardmarket prices | apiKey | `responds` |
 | [Psychonauts](https://psychonauts-api.netlify.app/) | Psychonauts World Characters Information and PSI Powers | No | `access_denied` |
 | [PUBG](https://developer.pubg.com/) | Access in-game PUBG data | apiKey | `responds` |
 | [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | Puyo Puyo information from Puyo Nexus Wiki | No | `responds` |
@@ -1230,6 +1254,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Rblxdb](https://rblxdb.com/developers) | Verified Roblox music codes and decal IDs with live working status | No | `responds` |
 | [Rick and Morty](https://rickandmortyapi.com/) | All the Rick and Morty information, including images | No | `responds` |
 | [Riot Games](https://developer.riotgames.com/) | League of Legends Game Information | apiKey | `responds` |
+| [RoWatcher](https://rowatcher.com/docs/api) | Roblox game player counts every 5 minutes, plus daily history | No | `responds` |
 | [RuneScape](https://runescape.wiki/w/Application_programming_interface) | RuneScape and OSRS RPGs information | No | `responds` |
 | [Sakura CardCaptor](https://github.com/JessVel/sakura-card-captor-api) | Sakura CardCaptor Cards Information | No | `responds` |
 | [Scryfall](https://scryfall.com/docs/api) | Magic: The Gathering database | No | `responds` |
@@ -1247,7 +1272,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [TETR.IO](https://tetr.io/about/api/) | TETR.IO Tetra Channel API | No | `responds` |
 | [TickerMint](https://tickermint.cards/developers) | Daily card prices and history for Pokémon, One Piece, Lorcana, Riftbound, Yu-Gi-Oh and Gundam | No | `responds` |
 | [Tronald Dump](https://www.tronalddump.io/) | The dumbest things Donald Trump has ever said | No | `responds` |
-| [Unicum](https://unicum.gg/docs) | World of Tanks player, clan and tank stats, ratings and leaderboards for EU, NA and Asia | No | `access_denied` |
+| [Unicum](https://unicum.gg/docs) | World of Tanks player, clan and tank stats, ratings and leaderboards for EU, NA and Asia | No | `responds` |
 | [Universalis](https://universalis.app/docs/index.html) | Final Fantasy XIV market board data | No | `responds` |
 | [Valo.Data](https://valotcg.com/developers/api/pokemon) | Pokémon TCG cards in EN/FR/JA/ZH, Cardmarket, US market and eBay prices, PSA populations, 14 TCGs | apiKey | `responds` |
 | [Valorant (non-official)](https://valorant-api.com/) | An extensive API containing data of most Valorant in-game items, assets and more | No | `responds` |
@@ -1260,7 +1285,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | `responds` |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | `responds` |
 
-## Geocoding (117)
+## Geocoding (119)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1272,7 +1297,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [ApogeoAPI](https://apogeoapi.com/) | Bundled API for countries, states, cities, IP geolocation, and live exchange rates | apiKey | `responds` |
 | [AtlasFetch](https://atlasfetch.xyz/docs) | Reverse geocode coordinates to country, region and municipality with ISO 3166 codes | apiKey | `responds` |
 | [Battuta](http://battuta.medunes.net/) | A (country/region/city) in-cascade location API | apiKey | `responds` |
-| [BdAPIs](https://bdapis.com/) | Get divisions, districts, and upazzilas of Bangladesh | No | `client_error` |
+| [BdAPIs](https://bdapis.com/) | Get divisions, districts, and upazzilas of Bangladesh | No | `responds` |
 | [BigDataCloud](https://www.bigdatacloud.com/docs) | Provides fast and accurate IP geolocation APIs along with security checks and confidence area | apiKey | `responds` |
 | [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | apiKey | `responds` |
 | [bng2latlong](https://www.getthedata.com/bng2latlong) | Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude | No | `responds` |
@@ -1281,6 +1306,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | `responds` |
 | [Country](http://country.is/) | Get your visitor's country from their IP | No | `responds` |
 | [CountryStateCity](https://countrystatecity.in/) | World countries, states, regions, provinces, cities &amp; towns in JSON, SQL, XML, YAML, &amp; CSV format | apiKey | `responds` |
+| [Danadresse](https://api.danadresse.dk/docs) | Danish addresses: autocomplete, lookup, reverse geocoding, cleansing (DAWA-compatible) | apiKey | `responds` |
 | [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | No | `responds` |
 | [FindIP](https://www.findip.net/Docs/api-response) | IP geolocation with VPN, proxy, Tor, datacenter and malicious IP detection, free | apiKey | `responds` |
 | [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | `responds` |
@@ -1303,7 +1329,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [HackMyIP](https://hackmyip.com/api) | IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups | No | `responds` |
 | [HelloSalut](https://fourtonfish.com/project/hellosalut-api/) | Get hello translation following user language | No | `responds` |
 | [HERE Maps](https://developer.here.com/) | Create/customize digital maps based on HERE Maps data | apiKey | `responds` |
-| [Hirak IP to Country](https://iplocation.hirak.site/) | Ip to location with country code, currency code &amp; currency name, fast response, unlimited requests | apiKey | `access_denied` |
+| [Hirak IP to Country](https://iplocation.hirak.site/) | Ip to location with country code, currency code &amp; currency name, fast response, unlimited requests | apiKey | `responds` |
 | [Hong Kong GeoData Store](https://geodata.gov.hk/gs/) | API for accessing geo-data of Hong Kong | No | `unreachable` |
 | [IBGE](https://servicodados.ibge.gov.br/api/docs/) | Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) | No | `access_denied` |
 | [IP 2 Country](https://ip2country.info/) | Map an IP to a country | No | `responds` |
@@ -1320,13 +1346,14 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [ipapi.com](https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Geolocation &amp; Reverse IP Lookup REST API | apiKey | `responds` |
 | [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | `responds` |
 | [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | apiKey | `responds` |
-| [ipgeolocationapi](https://ipgeolocationapi.io/docs) | IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day | No | `unreachable` |
+| [ipgeolocationapi](https://ipgeolocationapi.io/docs) | IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day | No | `server_error` |
 | [IPInfoDB](https://www.ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | apiKey | `access_denied` |
 | [IPKit](https://ipkit.dev/docs) | IP lookup with location, ASN/ISP and VPN/proxy/Tor signals | No | `responds` |
 | [IPSnapshot](https://ipsnapshot.com/ip-lookup-api) | IP geolocation, ASN and ISP, plus VPN, datacenter and Tor detection for IPv4 and IPv6 | No | `responds` |
 | [IPstack](https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Locate and identify website visitors by IP address | apiKey | `responds` |
 | [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | apiKey | `responds` |
 | [ipwhois](https://ipwhois.io/documentation) | IP geolocation with country, city, coordinates, ISP, timezone and flag data | No | `responds` |
+| [Japan Places](https://japan-places.local-connect-design.trade/) | Japan POI datasets and derived signals: municipality census, station catchments, chains, grants | No | `responds` |
 | [Kakao Maps](https://apis.map.kakao.com/) | Kakao Maps provide multiple APIs for Korean maps | apiKey | `responds` |
 | [keycdn IP Location Finder](https://tools.keycdn.com/geo) | Get the IP geolocation data through the simple REST API. All the responses are JSON encoded | apiKey | `responds` |
 | [Kiprio UK Postcode](https://kiprio.com/v1/postcode) | UK postcode lookup with lat/lon, district, ward, constituency | apiKey | `client_error` |
@@ -1380,9 +1407,9 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [ZipCodeAPI](https://www.zipcodeapi.com/) | US zip code distance, radius and location API | apiKey | `responds` |
 | [Zippopotam.us](http://www.zippopotam.us/) | Get information about place such as country, city, state, etc | No | `responds` |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | `responds` |
-| [Zornade](https://app.zornade.com/api/) | Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (85M parcels) | apiKey | `responds` |
+| [Zornade](https://app.zornade.com/api/) | Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (88M parcels) | apiKey | `responds` |
 
-## Government (142)
+## Government (144)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1438,6 +1465,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [FIRMSapi](https://docs.firmsapi.com/) | Look up, search and validate US CBP FIRMS facility codes for ports, warehouses and FTZs | apiKey | `responds` |
 | [gankdat](https://gankdat.com/docs) | UK &amp; EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | apiKey | `responds` |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | OAuth | `responds` |
+| [Global law](https://lexifina.com/api/global-law) | Legislation of 200+ countries as a dated history: find by citation, read as of a date, search | apiKey | `responds` |
 | [GovContractScout](https://scout.govbidportals.com/) | US state &amp; local government contracts: search, details, NAICS lookup and AI match scoring | apiKey | `responds` |
 | [Gun Policy](https://www.gunpolicy.org/api) | International firearm injury prevention and policy | apiKey | `access_denied` |
 | [India LGD Index](https://india-lgd-index-api.vercel.app/docs) | Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes | No | `responds` |
@@ -1467,7 +1495,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Open Government, Estonia](https://avaandmed.eesti.ee/instructions/opendata-dataset-api) | Estonia Government Open Data | apiKey | `responds` |
 | [Open Government, Finland](https://www.avoindata.fi/en) | Finland Government Open Data | No | `responds` |
 | [Open Government, France](https://www.data.gouv.fr/) | French Government Open Data | apiKey | `responds` |
-| [Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog) | Germany Government Open Data | No | `responds` |
+| [Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog) | Germany Government Open Data | No | `client_error` |
 | [Open Government, Greece](https://data.gov.gr/) | Greece Government Open Data | OAuth | `responds` |
 | [Open Government, India](https://data.gov.in/) | Indian Government Open Data | apiKey | `unreachable` |
 | [Open Government, Indonesia](https://data.go.id/) | Indonesian Government Open Data | No | `responds` |
@@ -1486,7 +1514,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Open Government, Poland](https://dane.gov.pl/en) | Poland Government Open Data | No | `responds` |
 | [Open Government, Portugal](https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api) | Portugal Government Open Data | No | `responds` |
 | [Open Government, Queensland Government](https://www.data.qld.gov.au/) | Queensland Government Open Data | No | `responds` |
-| [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | `server_error` |
+| [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | `responds` |
 | [Open Government, Saudi Arabia](https://data.gov.sa/) | Saudi Arabia Government Open Data | No | `unreachable` |
 | [Open Government, Singapore](https://data.gov.sg/) | Singapore Government Open Data | No | `responds` |
 | [Open Government, Slovakia](https://data.gov.sk/en/) | Slovakia Government Open Data | No | `responds` |
@@ -1504,6 +1532,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [OpenMercantil](https://openmercantil.es/api/documentacion) | Spanish company public data and BORME event timelines | No | `responds` |
 | [OpenRegistry](https://openregistry.sophymarine.com/) | Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) | OAuth | `responds` |
 | [OpenStates](https://openstates.org/api/) | US state legislature bills and lawmakers | apiKey | `responds` |
+| [Political Polls](https://pushbuild.com/apis/political-polls.html) | Election vote-intention polls and averages by country, each poll with its release link | apiKey | `responds` |
 | [PourWire](https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications#free-json-api) | New restaurant and bar liquor license applications in 7 US metros (TX, NY, Los Angeles) | No | `responds` |
 | [PRC Exam Schedule](https://api.whenisthenextboardexam.com/docs/) | Unofficial Philippine Professional Regulation Commission's examination schedule | No | `unreachable` |
 | [Probative Legal Marketing Data](https://probativegrowth.com/resources/rules-api/) | US lawyer advertising rules, court filings, fees and legal-market statistics, sourced, with DOIs | No | `responds` |
@@ -1587,7 +1616,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | apiKey | `responds` |
 | [Urgences Québec](https://sante.handled.tools/api) | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | No | `responds` |
 
-## Jobs (47)
+## Jobs (48)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1633,13 +1662,14 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [US State Government Jobs](https://apify.com/founder-experiment/us-state-government-jobs) | State civil service job postings for California, New York, Wisconsin and North Dakota in one schema | apiKey | `not_found` |
 | [USAJOBS](https://developer.usajobs.gov/) | US government job board | apiKey | `responds` |
 | [Vibeworker](https://tryvibeworker.com/docs) | Upwork job listings with client data and AI fit scores, plus webhooks and RSS | apiKey | `responds` |
-| [WhatJobs](https://www.whatjobs.com/affiliates) | Job search engine | apiKey | `responds` |
+| [WARN Layoff Notices](https://pushbuild.com/apis/warn-layoff-notices.html) | US state WARN Act layoff and plant-closure notices: employer, location, date, workers affected | apiKey | `responds` |
+| [WhatJobs](https://www.whatjobs.com/affiliates) | Job search engine | apiKey | `access_denied` |
 | [Working Student Jobs](https://www.workingstudentjobs.de/developers) | Working student and internship jobs in Germany, filterable by city, field and language | No | `access_denied` |
 | [Worklittle](https://docs.worklittle.com/) | Job search, over 4 million jobs | apiKey | `responds` |
 | [YubHub](https://yubhub.co/developers/api-reference/) | Job listings read from employers' careers pages, with salary, skills and hiring statistics | No | `responds` |
 | [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | apiKey | `access_denied` |
 
-## Machine Learning (60)
+## Machine Learning (61)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1658,13 +1688,14 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Deepcode](https://www.deepcode.ai/) | AI for code review | No | `responds` |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | apiKey | `responds` |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | Parse dreams into structured entities, emotions, agency, threat, and outcomes | No | `unreachable` |
+| [Eden AI](https://www.edenai.co/docs/v3/quickstart/first-llm-call) | Unified API for 500+ LLMs and expert models for OCR, speech and translation | apiKey | `responds` |
 | [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | `not_found` |
 | [fixRAgent](https://fixragent.com/docs) | Triage a building maintenance photo: asset, urgency, trade to call and a line for the resident | apiKey | `responds` |
 | [GEN](https://gen.pro/docs#ai-agents) | Creative AI video engineer for ads, AI UGC and microdramas; free editor and social publishing | apiKey | `responds` |
 | [GoldBean](https://goldbean-api.xyz/docs) | OCR, Translation, NLP &amp; ERNIE LLM via Baidu AI (free tier available) | apiKey | `not_found` |
 | [Google Gemini](https://ai.google.dev/gemini-api/docs) | Multimodal generative AI for text, vision, and code generation | apiKey | `responds` |
 | [Groq](https://console.groq.com/docs/quickstart) | Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models | apiKey | `responds` |
-| [Hirak FaceAPI](https://faceapi.hirak.site/) | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | apiKey | `responds` |
+| [Hirak FaceAPI](https://faceapi.hirak.site/) | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | apiKey | `access_denied` |
 | [Hugging Face](https://huggingface.co/) | AI model hub with inference API for NLP, computer vision, and audio | apiKey | `responds` |
 | [Imagga](https://imagga.com/) | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | apiKey | `responds` |
 | [Inferdo](https://rapidapi.com/user/inferdo) | Computer Vision services like Facial detection, Image labeling, NSFW classification | apiKey | `responds` |
@@ -1727,7 +1758,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [KSoft.Si Lyrics](https://docs.ksoft.si/api/lyrics-api) | API to get lyrics for songs | apiKey | `unreachable` |
 | [LastFm](https://www.last.fm/api) | Music | apiKey | `responds` |
 | [ListenBrainz](https://listenbrainz.readthedocs.io/en/latest/users/api/index.html) | Open music listening data: scrobble history, statistics and recommendations | No | `responds` |
-| [Lyrics.ovh](https://lyricsovh.docs.apiary.io/) | Simple API to retrieve the lyrics of a song | No | `unreachable` |
+| [Lyrics.ovh](https://lyricsovh.docs.apiary.io/) | Simple API to retrieve the lyrics of a song | No | `server_error` |
 | [Mixcloud](https://www.mixcloud.com/developers/) | Music | OAuth | `responds` |
 | [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | `responds` |
 | [Musixmatch](https://developer.musixmatch.com/) | Music | apiKey | `responds` |
@@ -1778,7 +1809,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [TheNews](https://www.thenewsapi.com/) | Aggregated headlines, top story and live news JSON API | apiKey | `responds` |
 | [Trove](https://trove.nla.gov.au/about/create-something/using-api) | Search through the National Library of Australia collection of 1000s of digitised newspapers | apiKey | `responds` |
 
-## Open Data (95)
+## Open Data (98)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -1786,6 +1817,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [221](https://221.orvlabs.com/documentation) | Senegal reference data: public holidays, mobile operators, banks, communes, legal forms | No | `responds` |
 | [49 Gallery Historical Data](https://api.181649.com/docs) | Normalized historical records and 25 daily-updated reference series | No | `responds` |
 | [AcreLens](https://www.acrelens.com/) | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | apiKey | `responds` |
+| [Agent Data Hub](https://api.agentdatahub.de/docs) | Official statistics, central bank rates and FX, with source and licence in every answer | No | `responds` |
 | [API Setu](https://www.apisetu.gov.in/) | An Indian Government platform that provides a lot of APIS for KYC, business, education &amp; employment | No | `responds` |
 | [APIllow](https://apillow.co/docs.html) | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | apiKey | `responds` |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | `responds` |
@@ -1800,6 +1832,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [CARTO](https://carto.com/) | Location Information Prediction | apiKey | `responds` |
 | [CityAlert](https://cityalert.live/developers) | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | No | `responds` |
 | [Close Knit](https://getcloseknit.com/openapi.json) | Neighbourhoods and homes in London and England: sale prices, rents, crime, schools, flood risk | No | `responds` |
+| [Cloudflare Radar](https://developers.cloudflare.com/radar/) | Internet traffic, attack, outage and domain ranking trends from Cloudflare's network | apiKey | `responds` |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | US college admission chance estimates and admissions data for 1,100+ colleges | No | `responds` |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | `access_denied` |
 | [ConsumerSun Recalls](https://consumersun.com/data/recalls.json) | US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA | No | `responds` |
@@ -1808,7 +1841,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [DevLifeCheck](https://devlifecheck.com/developers) | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | No | `responds` |
 | [Edgepedia](https://www.edgechat.ai/developers) | Search and read Edgepedia, a free and growing encyclopedia with citations | No | `responds` |
 | [ek litre](https://eklitre.pk/data/) | Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price build-up | No | `responds` |
-| [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | apiKey | `not_found` |
+| [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | apiKey | `responds` |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | `responds` |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | `responds` |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | OAuth | `responds` |
@@ -1845,7 +1878,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | apiKey | `responds` |
 | [ProductGuru](https://myproduct.guru/lookup/) | Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN) | No | `responds` |
 | [PropRaven](https://propraven.com/developers) | US parcel, owner and permit records for all 50 states, with an OpenAPI 3.1 spec | apiKey | `client_error` |
-| [PublicDataHub](https://publicdatahub.org/api) | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | No | `responds` |
+| [PublicDataHub](https://publicdatahub.org/api) | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | No | `unreachable` |
 | [RebateHub](https://rebatehub.ca/data) | Canadian home energy rebate, grant and loan programs with status, deadlines and official sources | No | `responds` |
 | [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | apiKey | `responds` |
 | [Registrum](https://api.registrum.co.uk/docs) | UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status | apiKey | `responds` |
@@ -1861,6 +1894,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [The Deploy Log](https://github.com/dotcomjack/the-deploy-log) | 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0 | No | `responds` |
 | [Tickerz](https://tickerz.com/docs) | Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin | No | `responds` |
 | [Tilth](https://www.tilth.uk/data) | Free daily UK fertiliser price index across nine grades, CC BY 4.0 licensed | No | `responds` |
+| [Tranco](https://tranco-list.eu/api_documentation) | Research-oriented top sites ranking hardened against manipulation, with daily domain ranks | No | `responds` |
 | [Turkpidya](https://turkpidya.com/developers/) | Türkiye data: gold prices, lira rates, earthquakes, prayer times, fuel, duty pharmacies | No | `responds` |
 | [Umeå Open Data](https://opendata.umea.se/api/) | Open data of the city Umeå in northen Sweden | No | `responds` |
 | [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | `responds` |
@@ -1870,7 +1904,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Verified Handles](https://verifiedhandles.org/developers) | Official social media handles and identifiers of 155,000+ notable people and organisations | No | `responds` |
 | [VettedHome](https://vettedhome.co.uk/api/) | UK guides to property problems and home energy decisions, each with its primary sources | No | `responds` |
 | [Voidly](https://voidly.ai/api-docs) | Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries | No | `responds` |
-| [Vuntum](https://vuntum.com/en/api-mcp) | Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0 | No | `responds` |
+| [Vuntum](https://vuntum.com/en/api-mcp) | Sourced, dated facts on consumer robots and physical AI, licensed CC BY-NC 4.0 | No | `responds` |
 | [w14n](https://api.w14n.dev/v1) | Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates | No | `responds` |
 | [Warnely](https://warnely.com/developers) | Composite travel-safety scores for 180 countries (FCDO + US State + GPI + WGI + live incident wire), OpenAPI 3.1 spec, CC BY 4.0 | No | `not_found` |
 | [WhatsApp Rate Cards](https://github.com/tobachat/whatsapp-api-rates#json) | Meta's WhatsApp Business API per-message rates per country in 16 currencies, checked weekly | No | `responds` |
@@ -1936,10 +1970,11 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [VedIntel™ AstroAPI](https://vedintelastroapi.com/docs) | Vedic astrology computation — birth charts, dashas, panchang, AI narratives | apiKey | `responds` |
 | [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | `responds` |
 
-## Phone (10)
+## Phone (11)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
+| [AreaCodeCheck](https://areacodecheck.com/phone-api) | Country and dialling code for any phone number, plus area code and timezone for +1 numbers | No | `responds` |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | apiKey | `responds` |
 | [Fax for Agents](https://faxforagents.com/docs/) | Fax API, hosted MCP server and SDKs so AI agents send and receive faxes, free sandbox | apiKey | `responds` |
 | [Numlookup](https://numlookupapi.com/) | Phone number validation and carrier lookup API with global coverage | apiKey | `responds` |
@@ -1951,16 +1986,17 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Veriphone](https://veriphone.io/) | Phone number validation &amp; carrier lookup | apiKey | `responds` |
 | [VeriRoute Intel](https://verirouteintel.com/) | CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers | apiKey | `responds` |
 
-## Photography (40)
+## Photography (41)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
+| [AI GIF Maker](https://aigifmaker.readthedocs.io/en/latest/) | Turn text into animated GIFs with AI GIF Maker | apiKey | `responds` |
 | [APITemplate.io](https://apitemplate.io/) | Dynamically generate images and PDFs from templates with a simple API | apiKey | `responds` |
 | [CheetahO](https://cheetaho.com/docs/getting-started/) | Photo optimization and resize | apiKey | `access_denied` |
 | [CompressGIF](https://compressgif.net/docs) | Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls | apiKey | `responds` |
 | [Compresso](https://compresso.space/developers) | Visually lossless image compression for PNG, JPEG and WebP | apiKey | `responds` |
 | [CropDen](https://github.com/geektao1024/social-media-image-sizes#json-over-http) | Image sizes, safe zones and upload limits for 14 social platforms and passport photos | No | `responds` |
-| [Dagpi](https://dagpi.xyz/) | Image manipulation and processing | apiKey | `responds` |
+| [Dagpi](https://dagpi.xyz/) | Image manipulation and processing | apiKey | `unreachable` |
 | [Duply](https://duply.co/docs#getting-started-api) | Generate, Edit, Scale and Manage Images and Videos Smarter &amp; Faster | apiKey | `not_found` |
 | [DynaPictures](https://dynapictures.com/docs/) | Generate Hundreds of Personalized Images in Minutes | apiKey | `responds` |
 | [Flickr](https://www.flickr.com/services/api/) | Flickr Services | OAuth | `responds` |
@@ -1996,7 +2032,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | apiKey | `responds` |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | OAuth | `access_denied` |
 
-## Programming (6)
+## Programming (7)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -2004,15 +2040,17 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | For compiling and running code in several languages | apiKey | `responds` |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | apiKey | `responds` |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | `responds` |
+| [LeekCF Hinter](https://leekcf-hinter-api.leekcf.workers.dev/) | Graded hints for Codeforces problems, from a small nudge to the full solution | No | `responds` |
 | [Mintlify](https://docs.mintlify.com/) | For programmatically generating documentation for code | apiKey | `responds` |
 | [OnlineCompiler](https://onlinecompiler.io/docs?utm_source=public-apis) | Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint | apiKey | `responds` |
 
-## Science &amp; Math (60)
+## Science &amp; Math (61)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | `responds` |
 | [arXiv](https://info.arxiv.org/help/api/user-manual.html) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | `responds` |
+| [Astroletra](https://astroletra.com/datos/api/) | Moon phase and sign, aspects, retrogrades and next lunation by time zone | No | `responds` |
 | [Botlero](https://botlero.com/api/robots) | Sourced, quoted specs for humanoid robots | No | `responds` |
 | [Cazimi](https://cazimi.live/methodology#api) | Planetary retrograde stations, shadows and cazimi to the minute (JPL DE421) | No | `responds` |
 | [Chempirical](https://chempirical.com/api/) | Chemical compounds with physical data, reactions and substructure search | No | `responds` |
@@ -2072,7 +2110,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [WoRMS](https://www.marinespecies.org/rest/) | Marine species taxonomy, synonyms and distributions | No | `responds` |
 | [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | `not_found` |
 
-## Security (67)
+## Security (68)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -2094,7 +2132,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [DefenceLevel Index](https://defencelevel.com/index/api) | Daily cyber threat level (DEFCON 5 to 1) with open method, history in JSON/CSV and a badge | No | `responds` |
 | [Dehash.lt](https://github.com/Dehash-lt/api) | Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512 | No | `not_found` |
 | [Domain Intelligence](https://oti-labs.com/domain-intelligence-api) | DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call | apiKey | `responds` |
-| [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | `client_error` |
+| [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | `responds` |
 | [Escape](https://github.com/polarspetroll/EscapeAPI) | An API for escaping different kind of queries | No | `responds` |
 | [FilterLists](https://filterlists.com/) | Lists of filters for adblockers and firewalls | No | `access_denied` |
 | [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | Fraud detection API offering highly accurate browser fingerprinting | apiKey | `responds` |
@@ -2131,6 +2169,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Sealed Rose](https://sealedrose.com/verify-video) | AI media forensics and synthetic content verification for video, audio, image, and text | apiKey | `responds` |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | apiKey | `access_denied` |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | apiKey | `responds` |
+| [Shodan InternetDB](https://internetdb.shodan.io/docs) | Open ports, hostnames, CPEs, tags and known vulnerabilities for an IP address | No | `responds` |
 | [Spyse](https://spyse-dev.readme.io/reference/quick-start) | Access data on all Internet assets and build powerful attack surface management applications | apiKey | `responds` |
 | [SSL Domain Health Check](https://rapidapi.com/goktugbk/api/ssl-domain-health-check) | SSL certificate validity, domain WHOIS status, and DNS record checks for any domain | apiKey | `responds` |
 | [SSL Labs](https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md) | Deep SSL/TLS server analysis with A+ to F grading | No | `responds` |
@@ -2144,7 +2183,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | apiKey | `access_denied` |
 | [Website Security Scanner](https://rapidapi.com/Hitler-HlDevZDwP/api/website-security-scanner-api) | Passive website security audit: TLS, security headers, exposed files and a 0-100 score | apiKey | `responds` |
 
-## Shopping (35)
+## Shopping (39)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -2160,6 +2199,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | apiKey | `not_found` |
 | [eBay](https://developer.ebay.com/) | Sell and Buy on eBay | OAuth | `access_denied` |
 | [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | OAuth | `responds` |
+| [EverBee Research](https://research-open-api.everbee.com/docs/swagger.html) | Etsy listing, shop and keyword analytics: estimated sales, revenue, search volume and competition | apiKey | `responds` |
 | [Flipkart Marketplace](https://seller.flipkart.com/api-docs/FMSAPI.html) | Product listing management, Order Fulfilment in the Flipkart Marketplace | OAuth | `responds` |
 | [Lazada](https://open.lazada.com/doc/doc.htm) | Retrieve product ratings and seller performance metrics | apiKey | `responds` |
 | [Lianex](https://lianex.ai/developers) | Australian product prices compared across eBay, Amazon, JB Hi-Fi and more, as read-only JSON | No | `responds` |
@@ -2169,22 +2209,25 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Octopart](https://octopart.com/api/v4/reference) | Electronic part data for manufacturing, design, and sourcing | apiKey | `responds` |
 | [OLX Poland](https://developer.olx.pl/api/doc#section/) | Integrate with local sites by posting, managing adverts and communicating with OLX users | apiKey | `access_denied` |
 | [OneFindMe](https://onefindme.com/mcp) | Search AliExpress in any language: price, rating and orders for the delivery country | No | `responds` |
+| [OpenAxia](https://openaxia.com/agent) | Source-linked specifications and certifications for blind, shutter, awning and door motors | No | `responds` |
 | [OpenShopGraph](https://openshopgraph.com/en/developers/) | Source-dated return, shipping and payment facts for online shops | No | `responds` |
 | [OpenTiendas](https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml) | Official e-commerce API and webhooks | apiKey | `responds` |
+| [Outfit Showcase](https://github.com/hanchenxing1/outfit-showcase-card-api) | Issue a 30-day, 100-use virtual clothing try-on showcase link per request | apiKey | `responds` |
 | [Pangolinfo Amazon Data](https://docs.pangolinfo.com/) | Amazon product, review, search and Best Sellers data across 20+ marketplaces | apiKey | `responds` |
 | [Product Page Extractor](https://rapidapi.com/MohamedBahaa/api/product-page-extractor) | Product name, price, currency, stock and offers from store pages via JSON-LD and OpenGraph | apiKey | `responds` |
 | [Profitvana](https://www.profitvana.com/developers) | Seller fees for 31 marketplaces and payment processors, verified monthly | No | `responds` |
 | [Rappi](https://dev-portal.rappi.com/) | Manage orders from Rappi's app | OAuth | `responds` |
 | [Shopee](https://open.shopee.com/documents?version=1) | Shopee's official API for integration of various services from Shopee | apiKey | `responds` |
-| [SoldSignal](https://www.aiplannermail.com/free-resale-price-api/) | Weekly resale prices for sneakers, consoles and watches with sample size and fees | No | `server_error` |
+| [SoldSignal](https://www.aiplannermail.com/free-resale-price-api/) | Weekly resale prices for sneakers, consoles and watches with sample size and fees | No | `responds` |
 | [SoldStack](https://soldstack.fly.dev/docs) | Sold resale listings from Poshmark with median price, days to sell and net payout after fees | apiKey | `responds` |
 | [Sparepilot](https://sparepilot.com/developers) | Spare parts catalog, OEM cross-references &amp; price comparison for garden power equipment | apiKey | `responds` |
 | [Swanum Comps](https://swanum.com/comps/docs) | Sold resale prices from Vinted (7 European countries) and eBay US, with median and price range | apiKey | `responds` |
 | [Tokopedia](https://developer.tokopedia.com/openapi/guide/#/) | Tokopedia's Official API for integration of various services from Tokopedia | OAuth | `responds` |
+| [uglyHD](https://uglyhd.com/api-docs) | Cost per TB of new, used and refurbished drives and per GB of server RAM, from eBay and retailers | No | `responds` |
 | [VantaSpec](https://vantaspec.com/api-docs) | UK PC hardware prices, price history and specs across UK retailers | No | `responds` |
 | [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs/) | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | apiKey | `responds` |
 
-## Social (62)
+## Social (64)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -2212,6 +2255,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | OAuth | `responds` |
 | [Kakao](https://developers.kakao.com/) | Kakao Login, Share on KakaoTalk, Social Plugins and more | OAuth | `responds` |
 | [Lanyard](https://github.com/Phineas/lanyard) | Retrieve your presence on Discord through an HTTP REST API or WebSocket | No | `responds` |
+| [Lemmy](https://join-lemmy.org/api/main) | Federated link aggregator and forum; read posts, comments and communities on any instance | No | `responds` |
 | [Line](https://developers.line.biz/) | Line Login, Share on Line, Social Plugins and more | OAuth | `responds` |
 | [LinkedIn](https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context) | The foundation of all digital integrations with LinkedIn | OAuth | `responds` |
 | [LurkAPI](https://lurkapi.com/docs) | Public posts, profiles, ads and transcripts from 16 social platforms as JSON | apiKey | `responds` |
@@ -2226,6 +2270,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Publora](https://docs.publora.com/) | Publish and schedule posts to ten social networks from one endpoint | apiKey | `responds` |
 | [Reddit](https://www.reddit.com/dev/api) | Homepage of the internet | OAuth | `responds` |
 | [RedditAPIs](https://www.redditapis.com/) | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | apiKey | `responds` |
+| [Redlisten](https://redlisten.com/) | Public Reddit posts and comments: search, live feeds, keyword alerts and trends | apiKey | `responds` |
 | [Revolt](https://developers.revolt.chat/) | Revolt open source Discord alternative | apiKey | `responds` |
 | [Saidit](https://www.saidit.net/dev/api) | Open Source Reddit Clone | OAuth | `unreachable` |
 | [ShortsIntel](https://www.shortsintel.com/docs) | TikTok, Instagram Reels, YouTube Shorts and Meta ad data, plus AI video analysis | apiKey | `responds` |
@@ -2246,12 +2291,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | OAuth | `responds` |
 | [TwitterAPIs](https://www.twitterapis.com/) | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | apiKey | `responds` |
 | [TwittrAPI](https://www.twittrapi.com/docs) | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | apiKey | `responds` |
-| [vk](https://vk.com/dev/sites) | Read and write vk data | OAuth | `responds` |
+| [vk](https://vk.com/dev/sites) | Read and write vk data | OAuth | `unreachable` |
 | [Weir](https://docs.weirapp.io/) | Public Reddit and X (Twitter) data: search, posts, comment threads, profiles and followers | apiKey | `responds` |
 | [xfetch](https://xfetch.io/) | Read API for X/Twitter search, profiles, tweets, and social graph | apiKey | `responds` |
 | [XFlux](https://www.xfluxapi.com/docs/api) | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | apiKey | `responds` |
 
-## Sports &amp; Fitness (76)
+## Sports &amp; Fitness (80)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
@@ -2284,9 +2329,11 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Football Leagues](https://football-api.yuvron.online/reference) | Standings, fixtures, live scores, lineups and player stats for 11 European football competitions | apiKey | `responds` |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | `responds` |
 | [Football Standings](https://github.com/azharimm/football-standings-api) | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | No | `responds` |
+| [GolfCourse](https://api.golfcourseapi.com/docs/api/) | Data for 30,000+ golf courses: location, tee boxes, par, yardages, course rating and slope rating | apiKey | `responds` |
 | [HaterPicks](https://www.haterpicks.app/api) | Australian sports odds and player props from every major Australian bookmaker, free tier | apiKey | `responds` |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | apiKey | `responds` |
 | [KickoffAPI](https://kickoffapi.com/) | Football data API for live scores, fixtures, odds, and predictive xG models | apiKey | `responds` |
+| [LiftRadar](https://liftradar.eu/api) | Ski resorts across Europe: open lifts and slopes, snow depth and avalanche level | No | `responds` |
 | [Lumify](https://lumify.ai/docs) | Real-time sports intelligence: scores, odds, betting splits &amp; AI bet analysis across 8 sports | apiKey | `responds` |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | `responds` |
 | [MoviOdds](https://moviodds.com/doc) | Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket | No | `responds` |
@@ -2304,6 +2351,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Padel Snipe](https://padelsnipe.com/fr/world/api) | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | No | `client_error` |
 | [PadelAPI](https://padelapi.org/docs) | Query professional padel tournament data, player stats, and live match results | apiKey | `responds` |
 | [Parlay](https://parlay-api.com/docs) | Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports | apiKey | `responds` |
+| [PinnFeed](https://pinnfeed.io/docs) | Real-time Pinnacle odds over REST and WebSocket, with no-vig prices, drops and closing lines | apiKey | `responds` |
 | [PinnWire](https://pinnwire.com/docs.html) | Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts | apiKey | `responds` |
 | [PlayerElo](https://playerelo.football/api-access) | Player-level Elo ratings, predictions and history for 176 football leagues | apiKey | `responds` |
 | [Premier League Standings](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | apiKey | `responds` |
@@ -2317,6 +2365,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Sport Vision](https://developers.decathlon.com/products/sport-vision) | Identify sport, brands and gear in an image. Also does image sports captioning | apiKey | `unreachable` |
 | [Sportmonks Cricket](https://docs.sportmonks.com/cricket/) | Live cricket score, player statistics and fantasy API | apiKey | `responds` |
 | [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | apiKey | `responds` |
+| [Sports Jedi](https://api.sportsjedi.com/v1/docs) | Model picks, confidence scores, win probabilities and parlay scoring for NFL, NCAAF, NBA and MLB | apiKey | `responds` |
 | [Sports Odds API (BetRivers, Unibet &amp; 22 more books)](https://apify.com/publicrecords/sports-odds-api) | Live odds from 24 Kambi-powered sportsbooks incl. BetRivers &amp; Unibet, best price per outcome | apiKey | `responds` |
 | [SportScore](https://sportscore.com/developers/) | Live scores, fixtures, standings and stats for football, basketball, cricket and tennis | No | `access_denied` |
 | [Squiggle](https://api.squiggle.com.au/) | Fixtures, results and predictions for Australian Football League matches | No | `responds` |
@@ -2388,7 +2437,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [GeoScore](https://geoscoreapi.com/) | Score content for AI search citation readiness with a 0-100 GEO score and 8 structural metrics | apiKey | `responds` |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | apiKey | `responds` |
 | [Hirak OCR](https://ocr.hirak.site/) | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | apiKey | `access_denied` |
-| [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | apiKey | `responds` |
+| [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | apiKey | `access_denied` |
 | [Kiprio Translate](https://kiprio.com/v1/translate) | Free text translation with language detection, supports 50+ languages | apiKey | `not_found` |
 | [Langbly](https://langbly.com/docs) | Context-aware text translation and language detection for 100+ languages | apiKey | `responds` |
 | [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation/) | Translation API with free tier and reasonable prices | apiKey | `responds` |
@@ -2399,12 +2448,13 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [ToHuman](https://tohuman.io/ai-humanizer-api) | Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it | apiKey | `responds` |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding) | Natural language processing for advanced text analysis | OAuth | `responds` |
 
-## Tracking (11)
+## Tracking (12)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [Aftership](https://developers.aftership.com/reference/quick-start) | API to update, manage and track shipment efficiently | apiKey | `access_denied` |
 | [Correios](https://cws.correios.com.br/ajuda) | Integration to provide information and prepare shipments using Correio's services | apiKey | `responds` |
+| [lastscanned](https://docs.lastscanned.com/) | Parcel and ocean-container tracking across 549 carriers with webhooks and a free tier | apiKey | `responds` |
 | [Mapbox](https://docs.mapbox.com/api/) | Maps, directions, geocoding | apiKey | `responds` |
 | [Pixela](https://pixe.la/) | API for recording and tracking habits or effort, routines | X-Mashape-Key | `responds` |
 | [PostalPinCode](http://www.postalpincode.in/Api-Details) | API for getting Pincode details in India | No | `responds` |
@@ -2484,12 +2534,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Transport for Belgium](https://docs.irail.be/) | The iRail API is a third-party API for Belgian public transport by train | No | `responds` |
 | [Transport for Berlin, Germany](https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md) | Third-party VBB API | No | `responds` |
 | [Transport for Bordeaux, France](https://opendata.bordeaux-metropole.fr/explore/) | Bordeaux Métropole public transport and more (France) | apiKey | `responds` |
-| [Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io/) | Budapest public transport API | No | `unreachable` |
+| [Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io/) | Budapest public transport API | No | `server_error` |
 | [Transport for Chicago, US](http://www.transitchicago.com/developers/) | Chicago Transit Authority (CTA) | apiKey | `responds` |
 | [Transport for Czech Republic](https://www.chaps.cz/eng/products/idos-internet) | Czech transport API | No | `responds` |
 | [Transport for Denver, US](http://www.rtd-denver.com/gtfs-developer-guide.shtml) | RTD | No | `not_found` |
 | [Transport for Finland](https://digitransit.fi/en/developers/) | Finnish transport API | No | `access_denied` |
-| [Transport for Germany](http://data.deutschebahn.com/dataset/api-fahrplan) | Deutsche Bahn (DB) API | apiKey | `unreachable` |
+| [Transport for Germany](http://data.deutschebahn.com/dataset/api-fahrplan) | Deutsche Bahn (DB) API | apiKey | `not_found` |
 | [Transport for Grenoble, France](https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html) | Grenoble public transport | No | `responds` |
 | [Transport for Hessen, Germany](https://opendata.rmv.de/site/start.html) | RMV API (Public Transport in Hessen) | No | `responds` |
 | [Transport for Honolulu, US](http://hea.thebus.org/api_info.asp) | Honolulu Transportation Information | apiKey | `responds` |
@@ -2533,7 +2583,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | apiKey | `unreachable` |
 | [Clico](https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config) | URL shortener service | apiKey | `responds` |
 | [Cutt.ly](https://cutt.ly/api-documentation/cuttly-links-api) | URL shortener service | apiKey | `responds` |
-| [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | Shorten a long URL easily and fast | No | `access_denied` |
+| [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | Shorten a long URL easily and fast | No | `responds` |
 | [Free Url Shortener](https://ulvis.net/developer.html) | Free URL Shortener offers a powerful API to interact with other sites | No | `access_denied` |
 | [Git.io](https://github.blog/2011-11-10-git-io-github-url-shortener/) | Git.io URL shortener | No | `responds` |
 | [GoTiny](https://github.com/robvanbakel/gotiny-api) | A lightweight URL shortener, focused on ease-of-use for the developer and end-user | No | `responds` |
@@ -2545,7 +2595,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [RedirHub](https://redirhub.com/) | URL redirect management with custom domains, HTTPS, analytics, and REST API | apiKey | `responds` |
 | [Short Link](https://github.com/FayasNoushad/Short-Link-API) | Short URLs support so many domains | No | `not_found` |
 | [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | `responds` |
-| [Shrtlnk](https://shrtlnk.dev/) | Simple and efficient short link creation | apiKey | `responds` |
+| [Shrtlnk](https://shrtlnk.dev/) | Simple and efficient short link creation | apiKey | `unreachable` |
 | [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | apiKey | `responds` |
 | [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | apiKey | `responds` |
 
@@ -2574,12 +2624,12 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Wheelwise](https://cars.limoja.ai/api/search?q=BMW&limit=1) | UK used-car listings with fair-price grade, 36-month resale forecast and monthly cost per advert | No | `not_found` |
 | [WhichTrim](https://whichtrim.com/developers/) | US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding | apiKey | `responds` |
 
-## Video (63)
+## Video (65)
 
 | API | Description | Auth | Test |
 |---|---|---|---|
 | [An API of Ice And Fire](https://anapioficeandfire.com/) | Game Of Thrones API | No | `responds` |
-| [Arcmira](https://arcmira.com/docs) | Search indexed YouTube transcripts for timestamped passages and mentions | apiKey | `responds` |
+| [Arcmira](https://arcmira.com/docs) | YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers | apiKey | `responds` |
 | [Bob's Burgers](https://bobs-burgers-api-ui.herokuapp.com/) | Bob's Burgers API | No | `server_error` |
 | [Breaking Bad](https://breakingbadapi.com/documentation) | Breaking Bad API | No | `unreachable` |
 | [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes) | Some Breaking Bad quotes | No | `responds` |
@@ -2593,6 +2643,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Final Space](https://finalspaceapi.com/docs/) | Final Space API | No | `responds` |
 | [Galaxy Movies](https://galaxymovies.app/api/streaming-changes?provider=netflix) | Daily arrivals and departures per US streaming service | No | `access_denied` |
 | [Game of Thrones Quotes](https://gameofthronesquotes.xyz/) | Some Game of Thrones quotes | No | `responds` |
+| [GenMagic](https://genmagic.co/developers) | One key for 90+ image and video models (Veo, Kling, Seedance, FLUX) plus speech, OpenAI-compatible | apiKey | `responds` |
 | [Harry Potter Charactes](https://hp-api.herokuapp.com/) | Harry Potter Characters Data with with imagery | No | `not_found` |
 | [Hyperserve](https://hyperserve.io/) | Video backend API: upload any format, transcode to MP4, deliver via CDN | apiKey | `responds` |
 | [IMDb-API](https://imdb-api.com/) | API for receiving movie, serial and cast information | apiKey | `unreachable` |
@@ -2612,7 +2663,7 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | `responds` |
 | [ScaleReach](https://docs.scalereach.ai/) | Turn long videos into short vertical clips with AI captions and face-tracking crop | apiKey | `responds` |
 | [Shotstack](https://shotstack.io/) | Cloud video editing API to create and render videos programmatically | apiKey | `responds` |
-| [Simkl](https://simkl.docs.apiary.io/) | Movie, TV and Anime data | apiKey | `server_error` |
+| [Simkl](https://simkl.docs.apiary.io/) | Movie, TV and Anime data | apiKey | `responds` |
 | [STAPI](http://stapi.co/) | Information on all things Star Trek | No | `responds` |
 | [Star Wars Images](https://starwarsgallery.netlify.app/swapi-image-api/) | Images for SWAPI people, planets, species, starships and vehicles by ID | No | `responds` |
 | [Stranger Things Quotes](https://github.com/shadowoff09/strangerthings-quotes) | Returns Stranger Things quotes | No | `responds` |
@@ -2622,17 +2673,18 @@ List read and tested on 2026-11-19: 2431 APIs in 51 categories. `Auth` is the va
 | [SWAPI](https://www.swapi.tech/) | All things Star Wars | No | `responds` |
 | [SWAPI GraphQL](https://graphql.org/swapi-graphql) | Star Wars GraphQL API | No | `responds` |
 | [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | apiKey | `responds` |
+| [The Subtitle Database](https://thesubtitledb.org/developer/api) | Subtitles for movies and TV episodes by IMDb or TMDB id | No | `responds` |
 | [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | apiKey | `responds` |
 | [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | No | `responds` |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | apiKey | `responds` |
 | [TrailerAddict](https://www.traileraddict.com/trailerapi) | Easily embed trailers from TrailerAddict | apiKey | `not_found` |
-| [Trakt](https://trakt.docs.apiary.io/) | Movie and TV Data | apiKey | `server_error` |
+| [Trakt](https://trakt.docs.apiary.io/) | Movie and TV Data | apiKey | `unreachable` |
 | [Transcript Dock](https://www.transcriptdock.com/docs) | Transcripts of YouTube, TikTok and Instagram videos, with timing and SRT or VTT exports | apiKey | `responds` |
 | [TranscriptYT](https://transcript-yt.com/docs) | YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback | apiKey | `responds` |
 | [TubeToTranscript](https://www.tubetotranscript.com/youtube-transcript-api) | Extract clean YouTube video transcripts via REST API | apiKey | `access_denied` |
 | [TVDB](https://thetvdb.com/api-information) | Television data | apiKey | `responds` |
 | [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | `responds` |
-| [UGCdrop](https://ugcdrop.com/api) | Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting | No | `access_denied` |
+| [UGCdrop](https://ugcdrop.com/api) | Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting | No | `responds` |
 | [uNoGS](https://rapidapi.com/unogs/api/unogsng) | Unofficial Netflix Online Global Search, Search all netflix regions in one place | apiKey | `responds` |
 | [Video to Markdown](https://video-to-markdown.com/api) | Turn a YouTube URL into a markdown thumbnail image link | No | `responds` |
 | [VidSmaller](https://vidsmaller.com/api-docs) | Compress videos to an exact target file size, with estimates and async jobs | apiKey | `responds` |

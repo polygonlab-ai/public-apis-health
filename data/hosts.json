@@ -1,12 +1,12 @@
 {
     "source": "public-apis/public-apis",
     "source_page": "https://github.com/public-apis/public-apis",
-    "source_date": "2026-11-19",
-    "count": 2200,
+    "source_date": "2026-11-26",
+    "count": 2246,
     "hosts": [
         {
             "host": "github.com",
-            "api_count": 117,
+            "api_count": 118,
             "categories": [
                 "Animals",
                 "Anime",
@@ -38,6 +38,7 @@
                 "Photography",
                 "Science & Math",
                 "Security",
+                "Shopping",
                 "Social",
                 "Sports & Fitness",
                 "Transportation",
@@ -46,11 +47,11 @@
                 "Weather"
             ],
             "result": "responds",
-            "responding_count": 112
+            "responding_count": 113
         },
         {
             "host": "rapidapi.com",
-            "api_count": 34,
+            "api_count": 35,
             "categories": [
                 "Anime",
                 "Anti-Malware",
@@ -77,7 +78,7 @@
                 "Video"
             ],
             "result": "responds",
-            "responding_count": 34
+            "responding_count": 35
         },
         {
             "host": "developers.google.com",
@@ -253,6 +254,16 @@
             "responding_count": 0
         },
         {
+            "host": "pushbuild.com",
+            "api_count": 3,
+            "categories": [
+                "Government",
+                "Jobs"
+            ],
+            "result": "responds",
+            "responding_count": 3
+        },
+        {
             "host": "stanzaapi.com",
             "api_count": 3,
             "categories": [
@@ -312,6 +323,16 @@
             "responding_count": 2
         },
         {
+            "host": "developers.cloudflare.com",
+            "api_count": 2,
+            "categories": [
+                "Development",
+                "Open Data"
+            ],
+            "result": "responds",
+            "responding_count": 2
+        },
+        {
             "host": "docs.mapbox.com",
             "api_count": 2,
             "categories": [
@@ -365,6 +386,16 @@
             "categories": [
                 "Development",
                 "Test Data"
+            ],
+            "result": "responds",
+            "responding_count": 2
+        },
+        {
+            "host": "logoapi.sh",
+            "api_count": 2,
+            "categories": [
+                "Art & Design",
+                "Business"
             ],
             "result": "responds",
             "responding_count": 2
@@ -609,6 +640,15 @@
             "responding_count": 0
         },
         {
+            "host": "agentisend.com",
+            "api_count": 1,
+            "categories": [
+                "Email"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "agentnexus.app",
             "api_count": 1,
             "categories": [
@@ -694,6 +734,15 @@
             "api_count": 1,
             "categories": [
                 "Machine Learning"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "aigifmaker.readthedocs.io",
+            "api_count": 1,
+            "categories": [
+                "Photography"
             ],
             "result": "responds",
             "responding_count": 1
@@ -1028,7 +1077,7 @@
             "categories": [
                 "Entertainment"
             ],
-            "result": "unreachable",
+            "result": "access_denied",
             "responding_count": 0
         },
         {
@@ -1036,6 +1085,15 @@
             "api_count": 1,
             "categories": [
                 "Personality"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "api.agentdatahub.de",
+            "api_count": 1,
+            "categories": [
+                "Open Data"
             ],
             "result": "responds",
             "responding_count": 1
@@ -1073,8 +1131,8 @@
             "categories": [
                 "Documents & Productivity"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "api.astroway.info",
@@ -1221,6 +1279,15 @@
             "responding_count": 1
         },
         {
+            "host": "api.danadresse.dk",
+            "api_count": 1,
+            "categories": [
+                "Geocoding"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "api.data.gov",
             "api_count": 1,
             "categories": [
@@ -1275,6 +1342,15 @@
             "responding_count": 1
         },
         {
+            "host": "api.duckduckgo.com",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "api.exchange.cryptomkt.com",
             "api_count": 1,
             "categories": [
@@ -1318,6 +1394,15 @@
             ],
             "result": "not_found",
             "responding_count": 0
+        },
+        {
+            "host": "api.golfcourseapi.com",
+            "api_count": 1,
+            "categories": [
+                "Sports & Fitness"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "api.gouv.fr",
@@ -1657,6 +1742,15 @@
             "api_count": 1,
             "categories": [
                 "Government"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "api.sportsjedi.com",
+            "api_count": 1,
+            "categories": [
+                "Sports & Fitness"
             ],
             "result": "responds",
             "responding_count": 1
@@ -2175,6 +2269,15 @@
             "responding_count": 1
         },
         {
+            "host": "areacodecheck.com",
+            "api_count": 1,
+            "categories": [
+                "Phone"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "arkleon.com",
             "api_count": 1,
             "categories": [
@@ -2206,6 +2309,15 @@
             "api_count": 1,
             "categories": [
                 "Personality"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "astroletra.com",
+            "api_count": 1,
+            "categories": [
+                "Science & Math"
             ],
             "result": "responds",
             "responding_count": 1
@@ -2405,8 +2517,8 @@
             "categories": [
                 "Geocoding"
             ],
-            "result": "client_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "beeceptor.com",
@@ -2603,7 +2715,7 @@
             "categories": [
                 "Transportation"
             ],
-            "result": "unreachable",
+            "result": "server_error",
             "responding_count": 0
         },
         {
@@ -2675,7 +2787,7 @@
             "categories": [
                 "Development"
             ],
-            "result": "unreachable",
+            "result": "server_error",
             "responding_count": 0
         },
         {
@@ -2958,6 +3070,15 @@
             "responding_count": 1
         },
         {
+            "host": "calcbloc.com",
+            "api_count": 1,
+            "categories": [
+                "Finance"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "caldays.com",
             "api_count": 1,
             "categories": [
@@ -3169,6 +3290,15 @@
             "api_count": 1,
             "categories": [
                 "Programming"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "ceadigital.io",
+            "api_count": 1,
+            "categories": [
+                "Business"
             ],
             "result": "responds",
             "responding_count": 1
@@ -3521,8 +3651,8 @@
             "categories": [
                 "Cryptocurrency"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "coinlayer.com",
@@ -4196,8 +4326,8 @@
             "categories": [
                 "Photography"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "dailyfoodrecalls.com",
@@ -4295,7 +4425,7 @@
             "categories": [
                 "Transportation"
             ],
-            "result": "unreachable",
+            "result": "not_found",
             "responding_count": 0
         },
         {
@@ -4385,8 +4515,8 @@
             "categories": [
                 "Government"
             ],
-            "result": "server_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "data.gov.sa",
@@ -4844,8 +4974,8 @@
             "categories": [
                 "Cryptocurrency"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "dev.fingerprintjs.com",
@@ -5141,8 +5271,8 @@
             "categories": [
                 "Documents & Productivity"
             ],
-            "result": "server_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "developer.infermedica.com",
@@ -5573,8 +5703,8 @@
             "categories": [
                 "Finance"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "developers.bitpanda.com",
@@ -5590,15 +5720,6 @@
             "api_count": 1,
             "categories": [
                 "Email"
-            ],
-            "result": "responds",
-            "responding_count": 1
-        },
-        {
-            "host": "developers.cloudflare.com",
-            "api_count": 1,
-            "categories": [
-                "Development"
             ],
             "result": "responds",
             "responding_count": 1
@@ -5636,8 +5757,8 @@
             "categories": [
                 "Open Data"
             ],
-            "result": "not_found",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "developers.epo.org",
@@ -5671,6 +5792,15 @@
             "api_count": 1,
             "categories": [
                 "Business"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "developers.frontegg.com",
+            "api_count": 1,
+            "categories": [
+                "Authentication & Authorization"
             ],
             "result": "responds",
             "responding_count": 1
@@ -6491,8 +6621,8 @@
             "categories": [
                 "Security"
             ],
-            "result": "client_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "docs.firmsapi.com",
@@ -6702,6 +6832,15 @@
             "responding_count": 0
         },
         {
+            "host": "docs.lastscanned.com",
+            "api_count": 1,
+            "categories": [
+                "Tracking"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "docs.lexigram.io",
             "api_count": 1,
             "categories": [
@@ -6734,8 +6873,8 @@
             "categories": [
                 "Email"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "docs.mhw-db.com",
@@ -7355,7 +7494,7 @@
             "categories": [
                 "Development"
             ],
-            "result": "not_tested",
+            "result": "unreachable",
             "responding_count": 0
         },
         {
@@ -7805,8 +7944,8 @@
             "categories": [
                 "Machine Learning"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "fakejson.com",
@@ -8066,8 +8205,8 @@
             "categories": [
                 "Documents & Productivity"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "floorguard-kappa.vercel.app",
@@ -8203,6 +8342,15 @@
             ],
             "result": "responds",
             "responding_count": 1
+        },
+        {
+            "host": "freeqrly.com",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "freesound.org",
@@ -8371,6 +8519,15 @@
             "api_count": 1,
             "categories": [
                 "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "genmagic.co",
+            "api_count": 1,
+            "categories": [
+                "Video"
             ],
             "result": "responds",
             "responding_count": 1
@@ -8719,6 +8876,15 @@
         },
         {
             "host": "grid-hub.app",
+            "api_count": 1,
+            "categories": [
+                "Environment"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "grid.rebase.energy",
             "api_count": 1,
             "categories": [
                 "Environment"
@@ -9159,6 +9325,15 @@
             "responding_count": 1
         },
         {
+            "host": "hundredthrun-compute-desk.pages.dev",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "hunter.io",
             "api_count": 1,
             "categories": [
@@ -9191,8 +9366,8 @@
             "categories": [
                 "Games & Comics"
             ],
-            "result": "unreachable",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "i6eal.de",
@@ -9438,6 +9613,15 @@
             "responding_count": 1
         },
         {
+            "host": "internetdb.shodan.io",
+            "api_count": 1,
+            "categories": [
+                "Security"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "interpol.api.bund.dev",
             "api_count": 1,
             "categories": [
@@ -9506,8 +9690,8 @@
             "categories": [
                 "Development"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "ip2country.info",
@@ -9578,7 +9762,7 @@
             "categories": [
                 "Geocoding"
             ],
-            "result": "unreachable",
+            "result": "server_error",
             "responding_count": 0
         },
         {
@@ -9605,8 +9789,8 @@
             "categories": [
                 "Geocoding"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "iplogs.com",
@@ -9744,6 +9928,15 @@
             "responding_count": 0
         },
         {
+            "host": "japan-places.local-connect-design.trade",
+            "api_count": 1,
+            "categories": [
+                "Geocoding"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "jaydemks.github.io",
             "api_count": 1,
             "categories": [
@@ -9802,6 +9995,15 @@
             "api_count": 1,
             "categories": [
                 "Jobs"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "join-lemmy.org",
+            "api_count": 1,
+            "categories": [
+                "Social"
             ],
             "result": "responds",
             "responding_count": 1
@@ -9956,8 +10158,8 @@
             "categories": [
                 "Books"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "not_found",
+            "responding_count": 0
         },
         {
             "host": "keen.io",
@@ -10028,7 +10230,7 @@
             "categories": [
                 "Anime"
             ],
-            "result": "unreachable",
+            "result": "server_error",
             "responding_count": 0
         },
         {
@@ -10167,6 +10369,15 @@
             "responding_count": 1
         },
         {
+            "host": "leadmerlin.com",
+            "api_count": 1,
+            "categories": [
+                "Business"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "learn.microsoft.com",
             "api_count": 1,
             "categories": [
@@ -10176,10 +10387,28 @@
             "responding_count": 1
         },
         {
+            "host": "leekcf-hinter-api.leekcf.workers.dev",
+            "api_count": 1,
+            "categories": [
+                "Programming"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "legal.ge",
             "api_count": 1,
             "categories": [
                 "Business"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "lexifina.com",
+            "api_count": 1,
+            "categories": [
+                "Government"
             ],
             "result": "responds",
             "responding_count": 1
@@ -10228,6 +10457,24 @@
             ],
             "result": "access_denied",
             "responding_count": 0
+        },
+        {
+            "host": "liftradar.eu",
+            "api_count": 1,
+            "categories": [
+                "Sports & Fitness"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "lineupatlas.com",
+            "api_count": 1,
+            "categories": [
+                "Events"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "liquilens-undertow.com",
@@ -10347,15 +10594,6 @@
             "responding_count": 1
         },
         {
-            "host": "logoapi.sh",
-            "api_count": 1,
-            "categories": [
-                "Business"
-            ],
-            "result": "responds",
-            "responding_count": 1
-        },
-        {
             "host": "logs.to",
             "api_count": 1,
             "categories": [
@@ -10469,7 +10707,7 @@
             "categories": [
                 "Music"
             ],
-            "result": "unreachable",
+            "result": "server_error",
             "responding_count": 0
         },
         {
@@ -10555,6 +10793,15 @@
         },
         {
             "host": "mailfornet.com",
+            "api_count": 1,
+            "categories": [
+                "Email"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "mailmint.app.mintapis.com",
             "api_count": 1,
             "categories": [
                 "Email"
@@ -10694,8 +10941,8 @@
             "categories": [
                 "Business"
             ],
-            "result": "server_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "marketstack.com",
@@ -10815,6 +11062,15 @@
             "responding_count": 0
         },
         {
+            "host": "memeidea.com",
+            "api_count": 1,
+            "categories": [
+                "Entertainment"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "mememaker.github.io",
             "api_count": 1,
             "categories": [
@@ -10856,7 +11112,7 @@
             "categories": [
                 "Cryptocurrency"
             ],
-            "result": "not_found",
+            "result": "client_error",
             "responding_count": 0
         },
         {
@@ -11369,8 +11625,8 @@
             "categories": [
                 "Cryptocurrency"
             ],
-            "result": "unreachable",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "nexwall.kodnextech.com",
@@ -11809,6 +12065,15 @@
             "api_count": 1,
             "categories": [
                 "Games & Comics"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "openaxia.com",
+            "api_count": 1,
+            "categories": [
+                "Shopping"
             ],
             "result": "responds",
             "responding_count": 1
@@ -12291,6 +12556,15 @@
             "responding_count": 1
         },
         {
+            "host": "pagedpdf.com",
+            "api_count": 1,
+            "categories": [
+                "Documents & Productivity"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "palabras-aleatorias-public-api.herokuapp.com",
             "api_count": 1,
             "categories": [
@@ -12404,8 +12678,8 @@
             "categories": [
                 "Documents & Productivity"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "peak.fo",
@@ -12547,6 +12821,15 @@
             "api_count": 1,
             "categories": [
                 "Finance"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "pinnfeed.io",
+            "api_count": 1,
+            "categories": [
+                "Sports & Fitness"
             ],
             "result": "responds",
             "responding_count": 1
@@ -12741,6 +13024,15 @@
             "responding_count": 1
         },
         {
+            "host": "pokewallet.io",
+            "api_count": 1,
+            "categories": [
+                "Games & Comics"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "polydoc.tech",
             "api_count": 1,
             "categories": [
@@ -12764,8 +13056,8 @@
             "categories": [
                 "Finance"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "pontofato.com",
@@ -13061,8 +13353,8 @@
             "categories": [
                 "Open Data"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "pulsedive.com",
@@ -13090,15 +13382,6 @@
             ],
             "result": "unreachable",
             "responding_count": 0
-        },
-        {
-            "host": "pushbuild.com",
-            "api_count": 1,
-            "categories": [
-                "Government"
-            ],
-            "result": "responds",
-            "responding_count": 1
         },
         {
             "host": "pusher.com",
@@ -13290,6 +13573,15 @@
             "responding_count": 0
         },
         {
+            "host": "rahakit.com",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "raider.io",
             "api_count": 1,
             "categories": [
@@ -13403,8 +13695,8 @@
             "categories": [
                 "Cryptocurrency"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "rawg.io",
@@ -13492,6 +13784,24 @@
             "api_count": 1,
             "categories": [
                 "URL Shorteners"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "redlisten.com",
+            "api_count": 1,
+            "categories": [
+                "Social"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "regbase.local-connect-design.trade",
+            "api_count": 1,
+            "categories": [
+                "Business"
             ],
             "result": "responds",
             "responding_count": 1
@@ -13600,6 +13910,15 @@
             "api_count": 1,
             "categories": [
                 "Business"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "research-open-api.everbee.com",
+            "api_count": 1,
+            "categories": [
+                "Shopping"
             ],
             "result": "responds",
             "responding_count": 1
@@ -13726,6 +14045,15 @@
             "api_count": 1,
             "categories": [
                 "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "rowatcher.com",
+            "api_count": 1,
+            "categories": [
+                "Games & Comics"
             ],
             "result": "responds",
             "responding_count": 1
@@ -14267,8 +14595,8 @@
             "categories": [
                 "URL Shorteners"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "signaliz.docs.buildwithfern.com",
@@ -14294,8 +14622,8 @@
             "categories": [
                 "Video"
             ],
-            "result": "server_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "site.financialmodelingprep.com",
@@ -15216,6 +15544,15 @@
             "responding_count": 1
         },
         {
+            "host": "thesubtitledb.org",
+            "api_count": 1,
+            "categories": [
+                "Video"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "thetvdb.com",
             "api_count": 1,
             "categories": [
@@ -15531,6 +15868,15 @@
             "responding_count": 1
         },
         {
+            "host": "tradingaihub.com",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "tradingcalendars.com",
             "api_count": 1,
             "categories": [
@@ -15554,8 +15900,17 @@
             "categories": [
                 "Video"
             ],
-            "result": "server_error",
+            "result": "unreachable",
             "responding_count": 0
+        },
+        {
+            "host": "tranco-list.eu",
+            "api_count": 1,
+            "categories": [
+                "Open Data"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "transcript-yt.com",
@@ -15581,8 +15936,8 @@
             "categories": [
                 "Text Analysis"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "transparent.pt",
@@ -15752,8 +16107,17 @@
             "categories": [
                 "Video"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "uglyhd.com",
+            "api_count": 1,
+            "categories": [
+                "Shopping"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "ui.adsabs.harvard.edu",
@@ -15797,8 +16161,17 @@
             "categories": [
                 "Games & Comics"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "unique.domains",
+            "api_count": 1,
+            "categories": [
+                "Development"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "universalis.app",
@@ -16125,6 +16498,15 @@
             "responding_count": 1
         },
         {
+            "host": "veriapi.pro",
+            "api_count": 1,
+            "categories": [
+                "Currency Exchange"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "verifiedhandles.org",
             "api_count": 1,
             "categories": [
@@ -16215,6 +16597,15 @@
             "responding_count": 1
         },
         {
+            "host": "vibe-manufacturing.com",
+            "api_count": 1,
+            "categories": [
+                "Business"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "video-to-markdown.com",
             "api_count": 1,
             "categories": [
@@ -16256,8 +16647,8 @@
             "categories": [
                 "Social"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "unreachable",
+            "responding_count": 0
         },
         {
             "host": "voidly.ai",
@@ -16535,8 +16926,8 @@
             "categories": [
                 "URL Shorteners"
             ],
-            "result": "access_denied",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "wiki.guildwars2.com",
@@ -16733,8 +17124,8 @@
             "categories": [
                 "Shopping"
             ],
-            "result": "server_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "www.aishub.net",
@@ -16987,6 +17378,15 @@
             ],
             "result": "access_denied",
             "responding_count": 0
+        },
+        {
+            "host": "www.bluerate.ai",
+            "api_count": 1,
+            "categories": [
+                "Finance"
+            ],
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "www.boe.es",
@@ -17502,6 +17902,15 @@
             "responding_count": 1
         },
         {
+            "host": "www.dummyimg.in",
+            "api_count": 1,
+            "categories": [
+                "Art & Design"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
             "host": "www.dwellir.com",
             "api_count": 1,
             "categories": [
@@ -17533,6 +17942,15 @@
             "api_count": 1,
             "categories": [
                 "Finance"
+            ],
+            "result": "responds",
+            "responding_count": 1
+        },
+        {
+            "host": "www.edenai.co",
+            "api_count": 1,
+            "categories": [
+                "Machine Learning"
             ],
             "result": "responds",
             "responding_count": 1
@@ -17912,8 +18330,8 @@
             "categories": [
                 "Government"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "client_error",
+            "responding_count": 0
         },
         {
             "host": "www.gronox.kr",
@@ -18065,8 +18483,8 @@
             "categories": [
                 "Calendar"
             ],
-            "result": "client_error",
-            "responding_count": 0
+            "result": "responds",
+            "responding_count": 1
         },
         {
             "host": "www.ip2whois.com",
@@ -19568,8 +19986,8 @@
             "categories": [
                 "Jobs"
             ],
-            "result": "responds",
-            "responding_count": 1
+            "result": "access_denied",
+            "responding_count": 0
         },
         {
             "host": "www.wikidata.org",

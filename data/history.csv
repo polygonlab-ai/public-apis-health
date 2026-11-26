@@ -2477,3 +2477,99 @@ date,event,url,name,detail
 2026-11-19,test_result_changed,https://simkl.docs.apiary.io/,Simkl,responds -> server_error
 2026-11-19,added,https://vidsmaller.com/api-docs,VidSmaller,"Video, test responds"
 2026-11-19,removed,https://api.ibanforge.com/,IBANforge,no longer in the list
+2026-11-26,test_result_changed,https://kitsu.docs.apiary.io/,Kitsu,unreachable -> server_error
+2026-11-26,added,https://www.dummyimg.in/,DummyImg,"Art & Design, test responds"
+2026-11-26,added,https://logoapi.sh/favicon,Logoapi Favicons,"Art & Design, test responds"
+2026-11-26,added,https://developers.frontegg.com/ciam/api/overview,Frontegg,"Authentication & Authorization, test responds"
+2026-11-26,test_result_changed,https://kdp-intelligence-api.vercel.app/docs,KDP Intelligence,responds -> not_found
+2026-11-26,added,https://ceadigital.io/tools,CEA Digital,"Business, test responds"
+2026-11-26,added,https://leadmerlin.com/docs/,LeadMerlin,"Business, test responds"
+2026-11-26,test_result_changed,https://markerapi.com/,markerapi,server_error -> responds
+2026-11-26,added,https://regbase.local-connect-design.trade/,RegBase Japan Company Verification,"Business, test responds"
+2026-11-26,added,https://vibe-manufacturing.com/agents,Vibe Manufacturing,"Business, test responds"
+2026-11-26,test_result_changed,https://www.intellibookai.com/docs,Intellibook,client_error -> responds
+2026-11-26,test_result_changed,https://coinigy.docs.apiary.io/,Coinigy,responds -> unreachable
+2026-11-26,test_result_changed,https://dev.cosmospay.lat/docs/api/,Cosmos Pay,access_denied -> responds
+2026-11-26,test_result_changed,https://rates.hirak.site/,Hirak Exchange Rates,access_denied -> responds
+2026-11-26,test_result_changed,https://messari.io/api,Messari,not_found -> client_error
+2026-11-26,test_result_changed,https://nexchange2.docs.apiary.io/,Nexchange,unreachable -> responds
+2026-11-26,added,https://veriapi.pro/dokumantasyon,VeriApi,"Currency Exchange, test responds"
+2026-11-26,added,https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker,EU VAT Format Check,"Data Validation, test responds"
+2026-11-26,test_result_changed,https://blynkapi.docs.apiary.io/#,Blynk-Cloud,unreachable -> server_error
+2026-11-26,added,https://api.duckduckgo.com/,DuckDuckGo,"Development, test responds"
+2026-11-26,added,https://freeqrly.com/developers/,FreeQrly,"Development, test access_denied"
+2026-11-26,added,https://hundredthrun-compute-desk.pages.dev/open-data,Hundredth Run GPU Prices,"Development, test responds"
+2026-11-26,test_result_changed,https://ip-fast.com/docs/,ip-fast.com,access_denied -> responds
+2026-11-26,test_result_changed,https://downforjustmeoreveryone.com/api,Is This Site Down?,not_tested -> unreachable
+2026-11-26,added,https://tradingaihub.com/developers/,TradingAIHub,"Development, test responds"
+2026-11-26,added,https://unique.domains/api,Unique.domains,"Development, test responds"
+2026-11-26,added,https://rahakit.com/what-is-my-ip/,What Is My IP by RahaKit,"Development, test responds"
+2026-11-26,test_result_changed,https://api.assinafy.com.br/v1/docs,Assinafy,responds -> access_denied
+2026-11-26,test_result_changed,https://flatmark.dev/docs,flatmark,responds -> unreachable
+2026-11-26,test_result_changed,https://developer.ilovepdf.com/,iLovePDF,server_error -> responds
+2026-11-26,added,https://pagedpdf.com/docs/,PagedPDF,"Documents & Productivity, test responds"
+2026-11-26,test_result_changed,https://pdfrender.dev/docs,pdfrender,responds -> unreachable
+2026-11-26,added,https://agentisend.com/docs,AgentiSend,"Email, test responds"
+2026-11-26,test_result_changed,https://docs.mail.tm/,mail.tm,access_denied -> responds
+2026-11-26,added,https://mailmint.app.mintapis.com/docs,MailMint,"Email, test responds"
+2026-11-26,test_result_changed,https://api.aakhilv.me/,Fun Fact,unreachable -> access_denied
+2026-11-26,added,https://memeidea.com/api/,memeidea,"Entertainment, test responds"
+2026-11-26,added,https://grid.rebase.energy/docs/v1,Rebase Grid,"Environment, test responds"
+2026-11-26,added,https://lineupatlas.com/en/data-partners,Lineup Atlas,"Events, test responds"
+2026-11-26,test_result_changed,https://developers.bb.com.br/home,Banco do Brasil,responds -> access_denied
+2026-11-26,added,https://www.bluerate.ai/developers,bluerate,"Finance, test responds"
+2026-11-26,added,https://calcbloc.com/developers,CalcBloc,"Finance, test responds"
+2026-11-26,test_result_changed,https://polymarket-kalshi.com/fee-schedule/,PolyKal Fees,responds -> unreachable
+2026-11-26,test_result_changed,https://hytale-api.com/,Hytale,unreachable -> responds
+2026-11-26,added,https://pokewallet.io/api-docs,PokéWallet,"Games & Comics, test responds"
+2026-11-26,added,https://rowatcher.com/docs/api,RoWatcher,"Games & Comics, test responds"
+2026-11-26,test_result_changed,https://unicum.gg/docs,Unicum,access_denied -> responds
+2026-11-26,test_result_changed,https://bdapis.com/,BdAPIs,client_error -> responds
+2026-11-26,added,https://api.danadresse.dk/docs,Danadresse,"Geocoding, test responds"
+2026-11-26,test_result_changed,https://iplocation.hirak.site/,Hirak IP to Country,access_denied -> responds
+2026-11-26,test_result_changed,https://ipgeolocationapi.io/docs,ipgeolocationapi,unreachable -> server_error
+2026-11-26,added,https://japan-places.local-connect-design.trade/,Japan Places,"Geocoding, test responds"
+2026-11-26,added,https://lexifina.com/api/global-law,Global law,"Government, test responds"
+2026-11-26,test_result_changed,https://www.govdata.de/daten/-/details/govdata-metadatenkatalog,"Open Government, Germany",responds -> client_error
+2026-11-26,test_result_changed,http://data.gov.ro/,"Open Government, Romania",server_error -> responds
+2026-11-26,added,https://pushbuild.com/apis/political-polls.html,Political Polls,"Government, test responds"
+2026-11-26,added,https://pushbuild.com/apis/warn-layoff-notices.html,WARN Layoff Notices,"Jobs, test responds"
+2026-11-26,test_result_changed,https://www.whatjobs.com/affiliates,WhatJobs,responds -> access_denied
+2026-11-26,added,https://www.edenai.co/docs/v3/quickstart/first-llm-call,Eden AI,"Machine Learning, test responds"
+2026-11-26,test_result_changed,https://faceapi.hirak.site/,Hirak FaceAPI,responds -> access_denied
+2026-11-26,test_result_changed,https://lyricsovh.docs.apiary.io/,Lyrics.ovh,unreachable -> server_error
+2026-11-26,added,https://api.agentdatahub.de/docs,Agent Data Hub,"Open Data, test responds"
+2026-11-26,added,https://developers.cloudflare.com/radar/,Cloudflare Radar,"Open Data, test responds"
+2026-11-26,test_result_changed,https://developers.enigma.com/docs,Enigma Public,not_found -> responds
+2026-11-26,test_result_changed,https://publicdatahub.org/api,PublicDataHub,responds -> unreachable
+2026-11-26,added,https://tranco-list.eu/api_documentation,Tranco,"Open Data, test responds"
+2026-11-26,added,https://areacodecheck.com/phone-api,AreaCodeCheck,"Phone, test responds"
+2026-11-26,added,https://aigifmaker.readthedocs.io/en/latest/,AI GIF Maker,"Photography, test responds"
+2026-11-26,test_result_changed,https://dagpi.xyz/,Dagpi,responds -> unreachable
+2026-11-26,added,https://leekcf-hinter-api.leekcf.workers.dev/,LeekCF Hinter,"Programming, test responds"
+2026-11-26,added,https://astroletra.com/datos/api/,Astroletra,"Science & Math, test responds"
+2026-11-26,test_result_changed,https://docs.emailrep.io/,EmailRep,client_error -> responds
+2026-11-26,added,https://internetdb.shodan.io/docs,Shodan InternetDB,"Security, test responds"
+2026-11-26,added,https://research-open-api.everbee.com/docs/swagger.html,EverBee Research,"Shopping, test responds"
+2026-11-26,added,https://openaxia.com/agent,OpenAxia,"Shopping, test responds"
+2026-11-26,added,https://github.com/hanchenxing1/outfit-showcase-card-api,Outfit Showcase,"Shopping, test responds"
+2026-11-26,test_result_changed,https://www.aiplannermail.com/free-resale-price-api/,SoldSignal,server_error -> responds
+2026-11-26,added,https://uglyhd.com/api-docs,uglyHD,"Shopping, test responds"
+2026-11-26,added,https://join-lemmy.org/api/main,Lemmy,"Social, test responds"
+2026-11-26,added,https://redlisten.com/,Redlisten,"Social, test responds"
+2026-11-26,test_result_changed,https://vk.com/dev/sites,vk,responds -> unreachable
+2026-11-26,added,https://api.golfcourseapi.com/docs/api/,GolfCourse,"Sports & Fitness, test responds"
+2026-11-26,added,https://liftradar.eu/api,LiftRadar,"Sports & Fitness, test responds"
+2026-11-26,added,https://pinnfeed.io/docs,PinnFeed,"Sports & Fitness, test responds"
+2026-11-26,added,https://api.sportsjedi.com/v1/docs,Sports Jedi,"Sports & Fitness, test responds"
+2026-11-26,test_result_changed,https://translate.hirak.site/,Hirak Translation,responds -> access_denied
+2026-11-26,added,https://docs.lastscanned.com/,lastscanned,"Tracking, test responds"
+2026-11-26,test_result_changed,https://bkkfutar.docs.apiary.io/,"Transport for Budapest, Hungary",unreachable -> server_error
+2026-11-26,test_result_changed,http://data.deutschebahn.com/dataset/api-fahrplan,Transport for Germany,unreachable -> not_found
+2026-11-26,test_result_changed,https://wiki.drivet.xyz/en/url-shortener/add-links,Drivet URL Shortener,access_denied -> responds
+2026-11-26,test_result_changed,https://shrtlnk.dev/,Shrtlnk,responds -> unreachable
+2026-11-26,added,https://genmagic.co/developers,GenMagic,"Video, test responds"
+2026-11-26,test_result_changed,https://simkl.docs.apiary.io/,Simkl,server_error -> responds
+2026-11-26,added,https://thesubtitledb.org/developer/api,The Subtitle Database,"Video, test responds"
+2026-11-26,test_result_changed,https://trakt.docs.apiary.io/,Trakt,server_error -> unreachable
+2026-11-26,test_result_changed,https://ugcdrop.com/api,UGCdrop,access_denied -> responds
